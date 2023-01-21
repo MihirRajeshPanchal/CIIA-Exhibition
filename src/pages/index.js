@@ -12,12 +12,12 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				AgroDrone - CIIA Exhibition
+				Quarkly export
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section>
+		<Section background="#000000" color="#ffffff">
 			<Box
 				display="flex"
 				padding="12px 0"
@@ -27,11 +27,31 @@ export default (() => {
 				md-flex-direction="column"
 			>
 				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="--lead">
-					AgroDrone
+					Awesome Company
 				</Text>
+				<Menu
+					display="flex"
+					justify-content="center"
+					font="--base"
+					font-weight="700"
+					md-flex-direction="column"
+					md-align-items="center"
+				>
+					<Override
+						slot="link"
+						text-decoration="none"
+						color="--dark"
+						padding="6px 12px"
+						border-color="#ffffff"
+					>
+						GitHub
+					</Override>
+					<Override slot="link-active" color="--primary" />
+					<Override slot="item" padding="6px" />
+				</Menu>
 			</Box>
 		</Section>
-		<Section padding="10px 0 80px 0" sm-padding="60px 0px 60px 0px">
+		<Section padding="80px 0 80px 0" sm-padding="60px 0px 60px 0px">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="flex"
@@ -51,12 +71,12 @@ export default (() => {
 				<Text
 					margin="0px 0px 24px 0px"
 					color="--dark"
-					font="--headline2"
+					font="--headline1"
 					lg-text-align="center"
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					lg-width="100%"
 				>
-					Bringing precision to the field, one flight at a time.
+					Making trip is fun. Travel with friends.
 				</Text>
 				<Text
 					margin="0px 0px 48px 0px"
@@ -65,7 +85,8 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-					AgroDrone is a unmanned aerial vehicles (UAVs) used to collect data and perform various tasks related to crop management and farming operations. These drones are equipped with a variety of sensors and cameras that can be used to gather information on crop health, soil moisture levels, and crop yields.</Text>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+				</Text>
 				<Box
 					display="flex"
 					align-items="flex-start"
@@ -147,7 +168,7 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 			>
 				<Image
-					src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/droneimg.png?token=GHSAT0AAAAAAB4YRXS2OLX6BBHFBOGCHEWKY6LWKLA"
+					src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/phone22.png?v=2021-08-26T11:41:54.452Z"
 					max-width="100%"
 					transform="translateY(10px)"
 					transition="transform 0.5s ease-in-out 0s"
@@ -157,7 +178,7 @@ export default (() => {
 		</Section>
 		<Section
 			padding="40px 0 40px 0"
-			background="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/stats.png?token=GHSAT0AAAAAAB4YRXS2MD7BKVQXFRI6YCSWY6LWNZQ) center center/cover no-repeat"
+			background="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&w=1500&q=80) center center/cover no-repeat"
 			min-height="100vh"
 			lg-padding="80px 0 80px 0"
 			md-padding="96px 0 96px 0"
@@ -190,7 +211,7 @@ export default (() => {
 					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					sm-width="100%"
 				>
-					Agriculture Drone
+					Polygon Cascade Sport Mountain Bike
 				</Text>
 				<Text
 					margin="0px 0px 32px 0px"
@@ -216,7 +237,7 @@ export default (() => {
 					sm-text-align="center"
 					hover-transition="background-color 0.2s ease-in-out 0s"
 				>
-					Compute Video
+					Show More
 				</Link>
 			</Box>
 		</Section>
@@ -884,7 +905,7 @@ export default (() => {
 				display="grid"
 				lg-flex-wrap="wrap"
 				align-items="stretch"
-				grid-template-columns="repeat(5, 1fr)"
+				grid-template-columns="repeat(4, 1fr)"
 				grid-gap="16px"
 				lg-grid-template-columns="repeat(2, 1fr)"
 				sm-grid-template-columns="1fr"
@@ -908,7 +929,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/tejas.jpeg?token=GHSAT0AAAAAAB4YRXS2JAEHM6RBRXXNMI5GY6LWIHA"
+							src="https://images.unsplash.com/photo-1554651802-57f1d69a4944?auto=format&fit=crop&w=500&q=80"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -928,7 +949,7 @@ export default (() => {
 							text-align="center"
 							color="--darkL1"
 						>
-							Tejas Pandya
+							Sam Smith
 						</Text>
 						<Text
 							margin="16px 0px 26px 0px"
@@ -937,7 +958,7 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit
 						</Text>
 					</Box>
 				</Box>
@@ -959,159 +980,6 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/vedant.jpg?token=GHSAT0AAAAAAB4YRXS2D6X7GTHC2RWZRUA6Y6LV5BQ"
-							object-fit="cover"
-							position="absolute"
-							top={0}
-							left={0}
-							bottom={0}
-							right={0}
-							display="block"
-							width="100%"
-							max-height="100%"
-						/>
-					</Box>
-					<Box padding="0px 20px 0px 20px" margin="0px 0px 0px 0px">
-						<Text
-							margin="21px 0px 0px 0px"
-							font="--headline3"
-							display="block"
-							text-align="center"
-							color="--darkL1"
-						>
-							Vedant Kambli
-						</Text>
-						<Text
-							margin="16px 0px 26px 0px"
-							font="--base"
-							display="block"
-							text-align="center"
-							color="--greyD2"
-						>
-							BTECH in AI student at Dwarkadas J. Sanghvi College of Engineering
-						</Text>
-					</Box>
-				</Box>
-				<Box
-					position="relative"
-					display="flex"
-					flex-direction="column"
-					align-items="center"
-					justify-content="flex-start"
-					padding="24px 24px 0px 24px"
-				>
-					<Box
-						width="100%"
-						height="auto"
-						overflow-x="hidden"
-						overflow-y="hidden"
-						position="relative"
-						padding="100% 0px 0px 0px"
-					>
-						<Image
-							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/OpenCV/main/assets/Mihir.jpeg?token=GHSAT0AAAAAAB4YRXS3SKFPCP5SL5X6VZGQY6LV3WQ"
-							object-fit="cover"
-							position="absolute"
-							top={0}
-							left={0}
-							bottom={0}
-							right={0}
-							display="block"
-							width="100%"
-							max-height="100%"
-						/>
-					</Box>
-					<Box padding="0px 20px 0px 20px" margin="0px 0px 0px 0px">
-						<Text
-							margin="21px 0px 0px 0px"
-							font="--headline3"
-							display="block"
-							text-align="center"
-							color="--darkL1"
-						>
-							Mihir Panchal
-						</Text>
-						<Text
-							margin="16px 0px 26px 0px"
-							font="--base"
-							display="block"
-							text-align="center"
-							color="--greyD2"
-						>
-							Information Technology Student at Shri Bhagubhai Mafatlal Polytechnic
-						</Text>
-					</Box>
-				</Box>
-				<Box
-					position="relative"
-					display="flex"
-					flex-direction="column"
-					align-items="center"
-					justify-content="flex-start"
-					padding="24px 24px 0px 24px"
-				>
-					<Box
-						width="100%"
-						height="auto"
-						overflow-x="hidden"
-						overflow-y="hidden"
-						position="relative"
-						padding="100% 0px 0px 0px"
-					>
-						<Image
-							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/chaitya.png?token=GHSAT0AAAAAAB4YRXS26JRACJ6QOFTKNCD6Y6LWJHA"
-							object-fit="cover"
-							position="absolute"
-							top={0}
-							left={0}
-							bottom={0}
-							right={0}
-							display="block"
-							width="100%"
-							max-height="100%"
-						/>
-					</Box>
-					<Box padding="0px 20px 0px 20px" margin="0px 0px 0px 0px">
-						<Text
-							margin="21px 0px 0px 0px"
-							font="--headline3"
-							display="block"
-							text-align="center"
-							color="--darkL1"
-						>
-							Chaitya Gala
-						</Text>
-						<Text
-							margin="16px 0px 26px 0px"
-							font="--base"
-							display="block"
-							text-align="center"
-							color="--greyD2"
-						>
-							Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic
-						</Text>
-					</Box>
-				</Box>
-				<Box
-					position="relative"
-					display="flex"
-					flex-direction="column"
-					align-items="center"
-					justify-content="flex-start"
-					padding="24px 24px 0px 24px"
-				>
-					<Box
-						width="100%"
-						height="auto"
-						overflow-x="hidden"
-						overflow-y="hidden"
-						position="relative"
-						padding="100% 0px 0px 0px"
-					>
-						<Image
-							border-radius="50%"	
 							src="https://images.unsplash.com/photo-1599870418764-c38abcfb955a?auto=format&fit=crop&w=400&q=80"
 							object-fit="cover"
 							position="absolute"
@@ -1132,7 +1000,7 @@ export default (() => {
 							text-align="center"
 							color="--darkL1"
 						>
-							Ratan Kunwar
+							Mason Johnson
 						</Text>
 						<Text
 							margin="16px 0px 26px 0px"
@@ -1141,7 +1009,109 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					position="relative"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+					justify-content="flex-start"
+					padding="24px 24px 0px 24px"
+				>
+					<Box
+						width="100%"
+						height="auto"
+						overflow-x="hidden"
+						overflow-y="hidden"
+						position="relative"
+						padding="100% 0px 0px 0px"
+					>
+						<Image
+							border-radius="50%"
+							src="https://images.unsplash.com/photo-1602480370486-ddc38af362cb?auto=format&fit=crop&w=500&q=80"
+							object-fit="cover"
+							position="absolute"
+							top={0}
+							left={0}
+							bottom={0}
+							right={0}
+							display="block"
+							width="100%"
+							max-height="100%"
+						/>
+					</Box>
+					<Box padding="0px 20px 0px 20px" margin="0px 0px 0px 0px">
+						<Text
+							margin="21px 0px 0px 0px"
+							font="--headline3"
+							display="block"
+							text-align="center"
+							color="--darkL1"
+						>
+							Adriana Williams
+						</Text>
+						<Text
+							margin="16px 0px 26px 0px"
+							font="--base"
+							display="block"
+							text-align="center"
+							color="--greyD2"
+						>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					position="relative"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+					justify-content="flex-start"
+					padding="24px 24px 0px 24px"
+				>
+					<Box
+						width="100%"
+						height="auto"
+						overflow-x="hidden"
+						overflow-y="hidden"
+						position="relative"
+						padding="100% 0px 0px 0px"
+					>
+						<Image
+							border-radius="50%"
+							src="https://images.unsplash.com/photo-1619950466709-02c2bf682442?auto=format&fit=crop&w=300&q=80"
+							object-fit="cover"
+							position="absolute"
+							top={0}
+							left={0}
+							bottom={0}
+							right={0}
+							display="block"
+							width="100%"
+							max-height="100%"
+						/>
+					</Box>
+					<Box padding="0px 20px 0px 20px" margin="0px 0px 0px 0px">
+						<Text
+							margin="21px 0px 0px 0px"
+							font="--headline3"
+							display="block"
+							text-align="center"
+							color="--darkL1"
+						>
+							Ethan Tremblay
+						</Text>
+						<Text
+							margin="16px 0px 26px 0px"
+							font="--base"
+							display="block"
+							text-align="center"
+							color="--greyD2"
+						>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit
 						</Text>
 					</Box>
 				</Box>
@@ -1162,7 +1132,7 @@ export default (() => {
 							padding="0 0 0 64px"
 							sm-padding="64px 0 0 0"
 							margin="32px 0 0 0"
-							max-width="1000px"
+							max-width="360px"
 							position="relative"
 							sm-display="flex"
 							sm-flex-direction="column"
@@ -1181,10 +1151,7 @@ export default (() => {
 								Visit us
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3" sm-width="100%">
-								Shri Bhagubhai Mafatlal Polytechnic
-								Irla, N. R. G Marg,
-								Opposite Cooper Hospital,
-								Vileparle (W), Mumbai 400056, India
+								4998 Hanover Street, New York, 10011
 							</Text>
 						</Box>
 						<Box
@@ -1211,20 +1178,20 @@ export default (() => {
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3">
 								<Link
-									href="mailto:pandyatejas100@gmail.com"
+									href="mailto:hello@company.com"
 									text-decoration="none"
 									hover-text-decoration="underline"
 									color="--light"
 									sm-width="100%"
 								>
-									pandyatejas100@gmail.com
+									hello@company.com
 								</Link>
 							</Text>
 						</Box>
 						<Box
 							padding="0 0 0 64px"
 							margin="64px 0 0 0"
-							max-width="500px"
+							max-width="360px"
 							position="relative"
 							sm-display="flex"
 							sm-flex-direction="column"
@@ -1245,9 +1212,9 @@ export default (() => {
 								Call us
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3" sm-width="100%">
-							+91 8591062011 (Tejas Pandya)
+								+1 (234) 567-89-00
 								<br />
-								+91 9833371632 (Mihir Panchal)
+								+1 (234) 567-89-00
 							</Text>
 						</Box>
 						<Box
@@ -1294,7 +1261,7 @@ export default (() => {
 				<Box width="50%" padding="8px 8px 8px 8px" md-width="100%" sm-padding="0px 0px 0px 0px">
 					<Box>
 						<Box
-							max-width="600px"
+							max-width="360px"
 							padding="56px 48px"
 							margin="0 0 0 auto"
 							md-max-width="100%"
@@ -1348,6 +1315,30 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Section background-color="--dark" text-align="center" padding="32px 0">
+			<Menu
+				display="flex"
+				justify-content="center"
+				font="--lead"
+				font-weight="700"
+				margin="-6px 0 16px"
+				md-flex-direction="column"
+				md-align-items="center"
+			>
+				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
+				<Override slot="link-active" color="--primary" />
+				<Override slot="item" padding="6px 0px" />
+			</Menu>
+			<Link
+				href="mailto:hello@company.com"
+				text-decoration-line="none"
+				variant="--base"
+				color="--grey"
+				hover-color="--primary"
+			>
+				hello@company.com
+			</Link>
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -1365,10 +1356,10 @@ export default (() => {
 			transition={"--opacityOut"}
 			quarkly-title={"Badge"}
 			text-decoration-line={"initial"}
-			href={"https://github.com/MihirRajeshPanchal/CIIA-Exhibition"}
+			href={"https://quarkly.io/"}
 			target={"_blank"}
 		>
-			Made by Team AgroDrone
+			Made on Quarkly
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"63cb8d949faa0f00208ff7eb"}>
