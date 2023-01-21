@@ -21,6 +21,7 @@ export default (() => {
 			<Box
 				display="flex"
 				padding="12px 0"
+				backgroundColor="grey"
 				justify-content="space-between"
 				align-items="center"
 				flex-direction="row"
@@ -51,12 +52,12 @@ export default (() => {
 				<Text
 					margin="0px 0px 24px 0px"
 					color="--dark"
-					font="--headline1"
+					font="--headline2"
 					lg-text-align="center"
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					lg-width="100%"
 				>
-					Making trip is fun. Travel with friends.
+					Bringing precision to the field, one flight at a time.
 				</Text>
 				<Text
 					margin="0px 0px 48px 0px"
@@ -65,7 +66,8 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					AgroDrone is a unmanned aerial vehicles (UAVs) used to collect data and perform various tasks related to crop management and farming operations. These drones are equipped with a variety of sensors and cameras that can be used to gather information on crop health, soil moisture levels, and crop yields.
+
 				</Text>
 				<Box
 					display="flex"
@@ -148,7 +150,7 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 			>
 				<Image
-					src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/phone22.png?v=2021-08-26T11:41:54.452Z"
+					src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/droneimg.png?token=GHSAT0AAAAAAB4YRXS2OLX6BBHFBOGCHEWKY6LWKLA"
 					max-width="100%"
 					transform="translateY(10px)"
 					transition="transform 0.5s ease-in-out 0s"
@@ -158,7 +160,7 @@ export default (() => {
 		</Section>
 		<Section
 			padding="40px 0 40px 0"
-			background="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&w=1500&q=80) center center/cover no-repeat"
+			background="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/stats.png?token=GHSAT0AAAAAAB4YRXS2MD7BKVQXFRI6YCSWY6LWNZQ) center center/cover no-repeat"
 			min-height="100vh"
 			lg-padding="80px 0 80px 0"
 			md-padding="96px 0 96px 0"
@@ -191,7 +193,7 @@ export default (() => {
 					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					sm-width="100%"
 				>
-					Polygon Cascade Sport Mountain Bike
+					Agriculture Drone
 				</Text>
 				<Text
 					margin="0px 0px 32px 0px"
@@ -217,7 +219,7 @@ export default (() => {
 					sm-text-align="center"
 					hover-transition="background-color 0.2s ease-in-out 0s"
 				>
-					Show More
+					Compute Video
 				</Link>
 			</Box>
 		</Section>
@@ -909,7 +911,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://images.unsplash.com/photo-1554651802-57f1d69a4944?auto=format&fit=crop&w=500&q=80"
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/tejas.jpeg?token=GHSAT0AAAAAAB4YRXS2JAEHM6RBRXXNMI5GY6LWIHA"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -938,7 +940,7 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+							Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic
 						</Text>
 					</Box>
 				</Box>
@@ -989,7 +991,7 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+							BTECH in AI student at Dwarkadas J. Sanghvi College of Engineering
 						</Text>
 					</Box>
 				</Box>
@@ -1040,7 +1042,7 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+							Information Technology Student at Shri Bhagubhai Mafatlal Polytechnic
 						</Text>
 					</Box>
 				</Box>
@@ -1062,7 +1064,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://images.unsplash.com/photo-1602480370486-ddc38af362cb?auto=format&fit=crop&w=500&q=80"
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/chaitya.png?token=GHSAT0AAAAAAB4YRXS26JRACJ6QOFTKNCD6Y6LWJHA"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1091,7 +1093,7 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+							Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic
 						</Text>
 					</Box>
 				</Box>
@@ -1142,7 +1144,7 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+							Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic
 						</Text>
 					</Box>
 				</Box>
@@ -1163,7 +1165,7 @@ export default (() => {
 							padding="0 0 0 64px"
 							sm-padding="64px 0 0 0"
 							margin="32px 0 0 0"
-							max-width="360px"
+							max-width="1000px"
 							position="relative"
 							sm-display="flex"
 							sm-flex-direction="column"
@@ -1181,8 +1183,11 @@ export default (() => {
 							<Text as="h4" margin="6px 0" font="--base" sm-width="100%">
 								Visit us
 							</Text>
-							<Text as="p" margin="6px 0" font="--headline3" sm-width="100%">
-								4998 Hanover Street, New York, 10011
+							<Text as="p" margin="12px 0" font="--headline3" sm-width="100%">
+							Shri Bhagubhai Mafatlal Polytechnic
+							Irla, N. R. G Marg,
+							Opposite Cooper Hospital,
+							Vileparle (W), Mumbai 400056, India
 							</Text>
 						</Box>
 						<Box
@@ -1215,14 +1220,14 @@ export default (() => {
 									color="--light"
 									sm-width="100%"
 								>
-									hello@company.com
+									pandyatejas100@gmail.com
 								</Link>
 							</Text>
 						</Box>
 						<Box
 							padding="0 0 0 64px"
 							margin="64px 0 0 0"
-							max-width="360px"
+							max-width="500px"
 							position="relative"
 							sm-display="flex"
 							sm-flex-direction="column"
@@ -1243,9 +1248,9 @@ export default (() => {
 								Call us
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3" sm-width="100%">
-								+1 (234) 567-89-00
+								+91 8591062011 (Tejas Pandya)
 								<br />
-								+1 (234) 567-89-00
+								+91 9833371632 (Mihir Panchal)
 							</Text>
 						</Box>
 						<Box
@@ -1292,7 +1297,7 @@ export default (() => {
 				<Box width="50%" padding="8px 8px 8px 8px" md-width="100%" sm-padding="0px 0px 0px 0px">
 					<Box>
 						<Box
-							max-width="360px"
+							max-width="600px"
 							padding="56px 48px"
 							margin="0 0 0 auto"
 							md-max-width="100%"
