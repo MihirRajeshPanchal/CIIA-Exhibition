@@ -1,5 +1,4 @@
 {
-    "homepage": "https://MihirRajeshPanchal.github.io/CIIA-Exhibition",
     "name": "quarkly-export",
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
@@ -18,8 +17,6 @@
         "react-icons": "^3.9.0"
     },
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "npm run sitemap && CI=false react-scripts build",
         "build:ci": "cross-env CI=false npm run build",
