@@ -12,7 +12,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				AgroDrone - CIIA Exhibition
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
@@ -27,28 +27,8 @@ export default (() => {
 				md-flex-direction="column"
 			>
 				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="--lead">
-					Awesome Company
+					AgroDrone
 				</Text>
-				<Menu
-					display="flex"
-					justify-content="center"
-					font="--base"
-					font-weight="700"
-					md-flex-direction="column"
-					md-align-items="center"
-				>
-					<Override
-						slot="link"
-						text-decoration="none"
-						color="--dark"
-						padding="6px 12px"
-						border-color="#ffffff"
-					>
-						GitHub
-					</Override>
-					<Override slot="link-active" color="--primary" />
-					<Override slot="item" padding="6px" />
-				</Menu>
 			</Box>
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0px 60px 0px">
@@ -76,7 +56,7 @@ export default (() => {
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					lg-width="100%"
 				>
-					Making trip is fun. Travel with friends.
+					Bringing precision to the field, one flight at a time.
 				</Text>
 				<Text
 					margin="0px 0px 48px 0px"
@@ -85,7 +65,7 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+				AgroDrone is a unmanned aerial vehicles (UAVs) used to collect data and perform various tasks related to crop management and farming operations. These drones are equipped with a variety of sensors and cameras that can be used to gather information on crop health, soil moisture levels, and crop yields.	
 				</Text>
 				<Box
 					display="flex"
@@ -115,10 +95,10 @@ export default (() => {
 					</Text>
 					<Box margin="0px 0px 0px 22px">
 						<Text margin="0px 0px 8px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-							Find your trip partner
+							Fly the Drone
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--greyD3" font="--base" lg-text-align="left">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+							Survey the land to capture the video of crops	
 						</Text>
 					</Box>
 				</Box>
@@ -147,10 +127,10 @@ export default (() => {
 					</Text>
 					<Box margin="0px 0px 0px 22px">
 						<Text margin="0px 0px 8px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-							Plan trip with easy steps
+							Compute the video 
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--greyD3" font="--base" lg-text-align="left">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+							Analyze the Video File and take decisions 
 						</Text>
 					</Box>
 				</Box>
@@ -168,7 +148,7 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 			>
 				<Image
-					src="https://uploads.quarkly.io/612695d67f2b1f001fa06c1f/images/phone22.png?v=2021-08-26T11:41:54.452Z"
+					src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-IMAGES/main/images/droneimg.png?token=GHSAT0AAAAAAB5YKD45QKAXXB6KNTT5XUQCY6MB7SQ"
 					max-width="100%"
 					transform="translateY(10px)"
 					transition="transform 0.5s ease-in-out 0s"
@@ -178,7 +158,7 @@ export default (() => {
 		</Section>
 		<Section
 			padding="40px 0 40px 0"
-			background="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&w=1500&q=80) center center/cover no-repeat"
+			background="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-IMAGES/main/images/stats.png?token=GHSAT0AAAAAAB5YKD44N7K5FCKGG447FWM2Y6MCAIA) center center/cover no-repeat"
 			min-height="100vh"
 			lg-padding="80px 0 80px 0"
 			md-padding="96px 0 96px 0"
@@ -211,7 +191,7 @@ export default (() => {
 					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					sm-width="100%"
 				>
-					Polygon Cascade Sport Mountain Bike
+					Agriculture Drone
 				</Text>
 				<Text
 					margin="0px 0px 32px 0px"
@@ -237,7 +217,7 @@ export default (() => {
 					sm-text-align="center"
 					hover-transition="background-color 0.2s ease-in-out 0s"
 				>
-					Show More
+					Compute Video
 				</Link>
 			</Box>
 		</Section>
@@ -262,15 +242,15 @@ export default (() => {
 					text-align="center"
 					lg-width="100%"
 				>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					Following are the statistics about AgroDrone in market	
 				</Text>
 			</Box>
 			<Box
 				width="100%"
 				margin="30px 0px 30px 0px"
 				border-radius="16px"
-				background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1595815393077-018a6d4e0b59?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1566&q=80) 0% 0% /cover no-repeat scroll padding-box"
-				min-height="336px"
+				background="rgba(0, 0, 0, 0) url(https://tropogo.com/blogs/images/blog/bg_spraying.png) 0% 0% /cover no-repeat scroll padding-box"
+				min-height="536px"
 				sm-min-height="200px"
 			/>
 			<Box
@@ -284,10 +264,10 @@ export default (() => {
 				sm-width="100%"
 			>
 				<Text margin="0px 0px 16px 0px" font="--headline1" color="--light">
-					85%
+					95%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--orange" text-align="center">
-					Lorem ipsum dolor sit amet
+					Accuracy on computation of diseases found in crops through video capture
 				</Text>
 			</Box>
 			<Box
@@ -304,7 +284,7 @@ export default (() => {
 					16%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--orange" text-align="center">
-					Lorem ipsum dolor sit amet
+					Demand increase over the years from farmers
 				</Text>
 			</Box>
 			<Box
@@ -321,7 +301,7 @@ export default (() => {
 					45%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--orange" text-align="center">
-					Lorem ipsum dolor sit amet
+					Increase in growth in yield of the farm
 				</Text>
 			</Box>
 			<Box
@@ -335,10 +315,10 @@ export default (() => {
 				sm-width="100%"
 			>
 				<Text margin="0px 0px 16px 0px" font="--headline1" color="--light">
-					56%
+					26%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--orange" text-align="center">
-					Lorem ipsum dolor sit amet
+					Usage Increase of drones in field of ariculture 
 				</Text>
 			</Box>
 		</Section>
@@ -377,7 +357,7 @@ export default (() => {
 					lg-width="100%"
 					lg-text-align="center"
 				>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					AgroDrone is built different with respect to its application in agricultural activities
 				</Text>
 			</Box>
 			<Box width="100%" display="grid" grid-template-columns="repeat(4, 1fr)" grid-gap="32px">
@@ -394,25 +374,25 @@ export default (() => {
 						md-padding="92px 0px 64px 0px"
 					>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Feature 1
+							Long Flight Time
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Feature 2
+							Far Range
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Feature 3
+							High Speed
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Feature 4
+							Good Payload Capacity
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Feature 5
+							HD Camera
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Feature 6
+							Good Battery Life
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 0px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Feature 7
+							High Precision
 						</Text>
 					</Box>
 				</Box>
@@ -439,7 +419,7 @@ export default (() => {
 							height="72px"
 							lg-height="64px"
 						>
-							Our company
+							AgroDrone
 						</Text>
 						<Box
 							margin="0px 0px 28px 0px"
@@ -592,7 +572,7 @@ export default (() => {
 							height="72px"
 							lg-height="64px"
 						>
-							Competitor 1
+							DGI Drone
 						</Text>
 						<Box
 							margin="0px 0px 28px 0px"
@@ -745,7 +725,7 @@ export default (() => {
 							height="72px"
 							lg-height="64px"
 						>
-							Competitor 2
+							Inside FPV
 						</Text>
 						<Box
 							margin="0px 0px 28px 0px"
@@ -893,19 +873,19 @@ export default (() => {
 					margin="16px 0px 0px 0px"
 					font="--lead"
 					display="block"
-					width="50%"
+					width="100%"
 					text-align="center"
 					color="--darkL2"
 					lg-width="100%"
 				>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+				Our team specializes in the development and implementation of agricultural drones for precision farming. Our drones are equipped with state-of-the-art technology such as multi-spectral cameras and precision spraying systems, allowing for efficient and precise crop monitoring and maintenance. Our team consists of experts in fields such as drone engineering, precision agriculture, and computer vision, ensuring that our drones are at the forefront of technological advancements in the industry.	
 				</Text>
 			</Box>
 			<Box
 				display="grid"
 				lg-flex-wrap="wrap"
 				align-items="stretch"
-				grid-template-columns="repeat(4, 1fr)"
+				grid-template-columns="repeat(5, 1fr)"
 				grid-gap="16px"
 				lg-grid-template-columns="repeat(2, 1fr)"
 				sm-grid-template-columns="1fr"
@@ -929,7 +909,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://images.unsplash.com/photo-1554651802-57f1d69a4944?auto=format&fit=crop&w=500&q=80"
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-IMAGES/main/images/tejas.jpeg?token=GHSAT0AAAAAAB5YKD45XEIQFNHJPFYFCWDYY6MCBMQ"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -949,7 +929,7 @@ export default (() => {
 							text-align="center"
 							color="--darkL1"
 						>
-							Sam Smith
+							Tejas Pandya
 						</Text>
 						<Text
 							margin="16px 0px 26px 0px"
@@ -958,7 +938,7 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+							Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic
 						</Text>
 					</Box>
 				</Box>
@@ -980,7 +960,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://images.unsplash.com/photo-1599870418764-c38abcfb955a?auto=format&fit=crop&w=400&q=80"
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-IMAGES/main/images/vedant.jpg?token=GHSAT0AAAAAAB5YKD45EBIOVBD4CQHNQDEYY6MCF4A"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1000,7 +980,7 @@ export default (() => {
 							text-align="center"
 							color="--darkL1"
 						>
-							Mason Johnson
+							Vedant Kambli
 						</Text>
 						<Text
 							margin="16px 0px 26px 0px"
@@ -1009,7 +989,7 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+							BTECH in AI student at Dwarkadas J. Sanghvi College of Engineering
 						</Text>
 					</Box>
 				</Box>
@@ -1031,7 +1011,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://images.unsplash.com/photo-1602480370486-ddc38af362cb?auto=format&fit=crop&w=500&q=80"
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/OpenCV/main/assets/Mihir.jpeg?token=GHSAT0AAAAAAB5YKD44RLLRKHMMKGAGXNPMY6MCMWA"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1051,7 +1031,7 @@ export default (() => {
 							text-align="center"
 							color="--darkL1"
 						>
-							Adriana Williams
+							Mihir Panchal
 						</Text>
 						<Text
 							margin="16px 0px 26px 0px"
@@ -1060,7 +1040,58 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+							Information Technology Student at Shri Bhagubhai Mafatlal Polytechnic
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					position="relative"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+					justify-content="flex-start"
+					padding="24px 24px 0px 24px"
+				>
+					<Box
+						width="100%"
+						height="auto"
+						overflow-x="hidden"
+						overflow-y="hidden"
+						position="relative"
+						padding="100% 0px 0px 0px"
+					>
+						<Image
+							border-radius="50%"
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-IMAGES/main/images/chaitya.png?token=GHSAT0AAAAAAB5YKD457J6Q2JOMKVXAMNVKY6MCBEA"
+							object-fit="cover"
+							position="absolute"
+							top={0}
+							left={0}
+							bottom={0}
+							right={0}
+							display="block"
+							width="100%"
+							max-height="100%"
+						/>
+					</Box>
+					<Box padding="0px 20px 0px 20px" margin="0px 0px 0px 0px">
+						<Text
+							margin="21px 0px 0px 0px"
+							font="--headline3"
+							display="block"
+							text-align="center"
+							color="--darkL1"
+						>
+							Chaitya Gala
+						</Text>
+						<Text
+							margin="16px 0px 26px 0px"
+							font="--base"
+							display="block"
+							text-align="center"
+							color="--greyD2"
+						>
+							Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic
 						</Text>
 					</Box>
 				</Box>
@@ -1102,7 +1133,7 @@ export default (() => {
 							text-align="center"
 							color="--darkL1"
 						>
-							Ethan Tremblay
+							Ratan Kunwar
 						</Text>
 						<Text
 							margin="16px 0px 26px 0px"
@@ -1111,7 +1142,7 @@ export default (() => {
 							text-align="center"
 							color="--greyD2"
 						>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+							Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic
 						</Text>
 					</Box>
 				</Box>
@@ -1132,7 +1163,7 @@ export default (() => {
 							padding="0 0 0 64px"
 							sm-padding="64px 0 0 0"
 							margin="32px 0 0 0"
-							max-width="360px"
+							max-width="1000px"
 							position="relative"
 							sm-display="flex"
 							sm-flex-direction="column"
@@ -1151,7 +1182,10 @@ export default (() => {
 								Visit us
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3" sm-width="100%">
-								4998 Hanover Street, New York, 10011
+								Shri Bhagubhai Mafatlal Polytechnic
+								Irla, N. R. G Marg,
+								Opposite Cooper Hospital,
+								Vileparle (W), Mumbai 400056, India
 							</Text>
 						</Box>
 						<Box
@@ -1178,20 +1212,20 @@ export default (() => {
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3">
 								<Link
-									href="mailto:hello@company.com"
+									href="mailto:pandyatejas100@gmail.com"
 									text-decoration="none"
 									hover-text-decoration="underline"
 									color="--light"
 									sm-width="100%"
 								>
-									hello@company.com
+									pandyatejas100@gmail.com
 								</Link>
 							</Text>
 						</Box>
 						<Box
 							padding="0 0 0 64px"
 							margin="64px 0 0 0"
-							max-width="360px"
+							max-width="500px"
 							position="relative"
 							sm-display="flex"
 							sm-flex-direction="column"
@@ -1212,9 +1246,9 @@ export default (() => {
 								Call us
 							</Text>
 							<Text as="p" margin="6px 0" font="--headline3" sm-width="100%">
-								+1 (234) 567-89-00
+								+91 8591062011 (Tejas Pandya)
 								<br />
-								+1 (234) 567-89-00
+								+91 9833371632 (Mihir Panchal)
 							</Text>
 						</Box>
 						<Box
@@ -1261,7 +1295,7 @@ export default (() => {
 				<Box width="50%" padding="8px 8px 8px 8px" md-width="100%" sm-padding="0px 0px 0px 0px">
 					<Box>
 						<Box
-							max-width="360px"
+							max-width="600px"
 							padding="56px 48px"
 							margin="0 0 0 auto"
 							md-max-width="100%"
@@ -1316,7 +1350,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0">
-			<Menu
+			{/* <Menu
 				display="flex"
 				justify-content="center"
 				font="--lead"
@@ -1328,7 +1362,7 @@ export default (() => {
 				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
 				<Override slot="link-active" color="--primary" />
 				<Override slot="item" padding="6px 0px" />
-			</Menu>
+			</Menu> */}
 			<Link
 				href="mailto:hello@company.com"
 				text-decoration-line="none"
@@ -1336,7 +1370,7 @@ export default (() => {
 				color="--grey"
 				hover-color="--primary"
 			>
-				hello@company.com
+				Made with ❤️ By Team AgroDrone from Shri Bhagubhai Mafatlal Polytechnic
 			</Link>
 		</Section>
 		<Link
@@ -1356,10 +1390,10 @@ export default (() => {
 			transition={"--opacityOut"}
 			quarkly-title={"Badge"}
 			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
+			href={"https://github.com/MihirRajeshPanchal/CIIA-Exhibition"}
 			target={"_blank"}
 		>
-			Made on Quarkly
+			Made by Team AgroDrone
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"63cb8d949faa0f00208ff7eb"}>
