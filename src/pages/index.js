@@ -12,7 +12,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				AgroDrone - CIIA Exhibition
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
@@ -960,7 +960,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://images.unsplash.com/photo-1599870418764-c38abcfb955a?auto=format&fit=crop&w=400&q=80"
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/vedant.jpg?token=GHSAT0AAAAAAB4YRXS2D6X7GTHC2RWZRUA6Y6LV5BQ"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1011,7 +1011,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://images.unsplash.com/photo-1599870418764-c38abcfb955a?auto=format&fit=crop&w=400&q=80"
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/OpenCV/main/assets/Mihir.jpeg?token=GHSAT0AAAAAAB4YRXS3SKFPCP5SL5X6VZGQY6LV3WQ"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1112,8 +1112,8 @@ export default (() => {
 						padding="100% 0px 0px 0px"
 					>
 						<Image
-							border-radius="50%"
-							src="https://images.unsplash.com/photo-1619950466709-02c2bf682442?auto=format&fit=crop&w=300&q=80"
+							border-radius="50%"	
+							src="https://images.unsplash.com/photo-1599870418764-c38abcfb955a?auto=format&fit=crop&w=400&q=80"
 							object-fit="cover"
 							position="absolute"
 							top={0}
