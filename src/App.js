@@ -16,7 +16,7 @@ export default () => (
     <Router>
         <GlobalStyles />
         <Switch>
-        			<Route exact path='/' component={Index}/>
+        	<Route exact path='/' component={Index}/>
 			<Route exact path='/index' component={Index}/>
 			<Route component={Page404}/>
         </Switch>

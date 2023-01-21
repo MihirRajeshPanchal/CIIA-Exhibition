@@ -27,23 +27,11 @@ export default (() => {
 				md-flex-direction="column"
 			>
 				<Text margin="0" md-margin="0px 0 20px 0" text-align="left" font="--lead">
-					Awesome Company
+					AgroDrone
 				</Text>
-				<Menu
-					display="flex"
-					justify-content="center"
-					font="--base"
-					font-weight="700"
-					md-flex-direction="column"
-					md-align-items="center"
-				>
-					<Override slot="link" text-decoration="none" color="--dark" padding="6px 12px" />
-					<Override slot="link-active" color="--primary" />
-					<Override slot="item" padding="6px" />
-				</Menu>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" sm-padding="60px 0px 60px 0px">
+		<Section padding="10px 0 80px 0" sm-padding="60px 0px 60px 0px">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
 				display="flex"
@@ -897,7 +885,7 @@ export default (() => {
 				display="grid"
 				lg-flex-wrap="wrap"
 				align-items="stretch"
-				grid-template-columns="repeat(4, 1fr)"
+				grid-template-columns="repeat(5, 1fr)"
 				grid-gap="16px"
 				lg-grid-template-columns="repeat(2, 1fr)"
 				sm-grid-template-columns="1fr"
@@ -941,7 +929,7 @@ export default (() => {
 							text-align="center"
 							color="--darkL1"
 						>
-							Sam Smith
+							Tejas Pandya
 						</Text>
 						<Text
 							margin="16px 0px 26px 0px"
@@ -992,7 +980,58 @@ export default (() => {
 							text-align="center"
 							color="--darkL1"
 						>
-							Mason Johnson
+							Vedant Kambli
+						</Text>
+						<Text
+							margin="16px 0px 26px 0px"
+							font="--base"
+							display="block"
+							text-align="center"
+							color="--greyD2"
+						>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					position="relative"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+					justify-content="flex-start"
+					padding="24px 24px 0px 24px"
+				>
+					<Box
+						width="100%"
+						height="auto"
+						overflow-x="hidden"
+						overflow-y="hidden"
+						position="relative"
+						padding="100% 0px 0px 0px"
+					>
+						<Image
+							border-radius="50%"
+							src="https://images.unsplash.com/photo-1599870418764-c38abcfb955a?auto=format&fit=crop&w=400&q=80"
+							object-fit="cover"
+							position="absolute"
+							top={0}
+							left={0}
+							bottom={0}
+							right={0}
+							display="block"
+							width="100%"
+							max-height="100%"
+						/>
+					</Box>
+					<Box padding="0px 20px 0px 20px" margin="0px 0px 0px 0px">
+						<Text
+							margin="21px 0px 0px 0px"
+							font="--headline3"
+							display="block"
+							text-align="center"
+							color="--darkL1"
+						>
+							Mihir Panchal
 						</Text>
 						<Text
 							margin="16px 0px 26px 0px"
@@ -1043,7 +1082,7 @@ export default (() => {
 							text-align="center"
 							color="--darkL1"
 						>
-							Adriana Williams
+							Chaitya Gala
 						</Text>
 						<Text
 							margin="16px 0px 26px 0px"
@@ -1094,7 +1133,7 @@ export default (() => {
 							text-align="center"
 							color="--darkL1"
 						>
-							Ethan Tremblay
+							Ratan Kunwar
 						</Text>
 						<Text
 							margin="16px 0px 26px 0px"
@@ -1324,10 +1363,10 @@ export default (() => {
 			transition={"--opacityOut"}
 			quarkly-title={"Badge"}
 			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
+			href={"https://github.com/MihirRajeshPanchal/CIIA-Exhibition"}
 			target={"_blank"}
 		>
-			Made on Quarkly
+			Made by Team AgroDrone
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"63cb8d949faa0f00208ff7eb"}>
