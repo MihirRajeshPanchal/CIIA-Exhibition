@@ -3,10 +3,17 @@ import theme from "theme";
 import { Theme, Link, Text, Box, Section, Image, Icon, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, Menu, Formspree } from "@quarkly/components";
+import { RawHtml, Override, Formspree } from "@quarkly/components";
 import { IoMdCheckmark, IoMdClose } from "react-icons/io";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import droneimg from "../images/droneimg.png"
+import mihir from "../images/Mihir.jpeg"
+import chaitya from "../images/chaitya.png"
+import vedant from "../images/vedant.jpg"
+import tejas from "../images/tejas.jpeg"
+
+
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -148,7 +155,7 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 			>
 				<Image
-					src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-IMAGES/main/images/droneimg.png?token=GHSAT0AAAAAAB5YKD45QKAXXB6KNTT5XUQCY6MB7SQ"
+					src={droneimg}
 					max-width="100%"
 					transform="translateY(10px)"
 					transition="transform 0.5s ease-in-out 0s"
@@ -158,7 +165,7 @@ export default (() => {
 		</Section>
 		<Section
 			padding="40px 0 40px 0"
-			background="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-IMAGES/main/images/stats.png?token=GHSAT0AAAAAAB5YKD44N7K5FCKGG447FWM2Y6MCAIA) center center/cover no-repeat"
+			background="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://www.nutanix.com/content/dam/nutanix-newsroom/drones-help-feed-the-world/drone-farming-og.jpg) center center/cover no-repeat"
 			min-height="100vh"
 			lg-padding="80px 0 80px 0"
 			md-padding="96px 0 96px 0"
@@ -572,7 +579,7 @@ export default (() => {
 							height="72px"
 							lg-height="64px"
 						>
-							DGI Drone
+							DJI Drone
 						</Text>
 						<Box
 							margin="0px 0px 28px 0px"
@@ -909,7 +916,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-IMAGES/main/images/tejas.jpeg?token=GHSAT0AAAAAAB5YKD45XEIQFNHJPFYFCWDYY6MCBMQ"
+							src={tejas}
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -960,7 +967,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-IMAGES/main/images/vedant.jpg?token=GHSAT0AAAAAAB5YKD45EBIOVBD4CQHNQDEYY6MCF4A"
+							src={vedant}
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1011,7 +1018,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/OpenCV/main/assets/Mihir.jpeg?token=GHSAT0AAAAAAB5YKD44RLLRKHMMKGAGXNPMY6MCMWA"
+							src={mihir}
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1062,7 +1069,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-IMAGES/main/images/chaitya.png?token=GHSAT0AAAAAAB5YKD457J6Q2JOMKVXAMNVKY6MCBEA"
+							src={chaitya}
 							object-fit="cover"
 							position="absolute"
 							top={0}
