@@ -1,7 +1,7 @@
 import speech_recognition as sr
 import pyaudio 
 from speech_recognition import *
-
+from TTS import tts
 def stt():
     r = sr.Recognizer()
     while True:
@@ -10,6 +10,10 @@ def stt():
             # audio=r.listen(source=source,phrase_time_limit=5)
             audio = r.listen(source)
             # using google speech recognition
-            text = r.recognize_google(audio)
-            print(text)
+            try: 
+                text = r.recognize_google(audio)
+                print(text)
+            except:
+                tts('Couldnt Recognize your voice')
+                return "love agrodrone"
             return text
