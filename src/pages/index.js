@@ -1423,7 +1423,7 @@ export default (() => {
 				<Override slot="item" padding="6px 0px" />
 			</Menu> */}
 			<Link
-				href="mailto:hello@company.com"
+				href="mailto:pandyatejas100@gmail.com"
 				text-decoration-line="none"
 				variant="--base"
 				color="--grey"

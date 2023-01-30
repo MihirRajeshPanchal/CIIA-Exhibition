@@ -73,3 +73,5 @@ def get_response(user_input):
 def dronegpt():
     tts("Hello I am DroneGPT")
     ans=get_response(stt())
+    
+# dronegpt()
