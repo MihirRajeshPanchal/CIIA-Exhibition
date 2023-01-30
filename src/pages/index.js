@@ -13,6 +13,7 @@ import chaitya from "../images/chaitya.png"
 import vedant from "../images/vedant.jpg"
 import tejas from "../images/tejas.jpeg"
 import ratan from "../images/ratan.jpg"
+import prinkal from "../images/prinkal.jpg"
 import favicon from "../images/favicon.ico"
 
 export default (() => {
@@ -892,7 +893,7 @@ export default (() => {
 				display="grid"
 				lg-flex-wrap="wrap"
 				align-items="stretch"
-				grid-template-columns="repeat(5, 1fr)"
+				grid-template-columns="repeat(6, 1fr)"
 				grid-gap="16px"
 				lg-grid-template-columns="repeat(2, 1fr)"
 				sm-grid-template-columns="1fr"
@@ -1150,6 +1151,57 @@ export default (() => {
 							color="--greyD2"
 						>
 							Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					position="relative"
+					display="flex"
+					flex-direction="column"
+					align-items="center"
+					justify-content="flex-start"
+					padding="24px 24px 0px 24px"
+				>
+					<Box
+						width="100%"
+						height="auto"
+						overflow-x="hidden"
+						overflow-y="hidden"
+						position="relative"
+						padding="100% 0px 0px 0px"
+					>
+						<Image
+							border-radius="50%"
+							src={prinkal}
+							object-fit="cover"
+							position="absolute"
+							top={0}
+							left={0}
+							bottom={0}
+							right={0}
+							display="block"
+							width="100%"
+							max-height="100%"
+						/>
+					</Box>
+					<Box padding="0px 20px 0px 20px" margin="0px 0px 0px 0px">
+						<Text
+							margin="21px 0px 0px 0px"
+							font="--headline3"
+							display="block"
+							text-align="center"
+							color="--darkL1"
+						>
+							Prinkal Doshi
+						</Text>
+						<Text
+							margin="16px 0px 26px 0px"
+							font="--base"
+							display="block"
+							text-align="center"
+							color="--greyD2"
+						>
+							Information Technology Student at Shri Bhagubhai Mafatlal Polytechnic
 						</Text>
 					</Box>
 				</Box>

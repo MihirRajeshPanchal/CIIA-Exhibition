@@ -43,8 +43,8 @@ def check_all_messages(message):
     # Longer responses servicess tab of website
     response('I am a DroneGPT', ['who', 'are','you'], single_response=True,required_words=['who'])
     response('Bringing precision to the field, one flight at a time.', ['tagline'], single_response=True)
-    response('AgroDrone is a unmanned aerial vehicles (UAVs) used to collect data and perform various tasks related to crop management and farming operations. These drones are equipped with a variety of sensors and cameras that can be used to gather information on crop health, soil moisture levels, and crop yields', ['what', 'is','agrodrone'], single_response=True)
-    response('Fly the Drone and then Compute the video are the two steps to follow to use the drone', ['what','steps','drone'], single_response=True)
+    response('AgroDrone is a unmanned aerial vehicles (UAVs) used to collect data and perform various tasks related to crop management and farming operations. These drones are equipped with a variety of sensors and cameras that can be used to gather information on crop health, soil moisture levels, and crop yields', ['what is agrodrone'], single_response=True)
+    response('Fly the Drone and then Compute the video are the two steps to follow to use the drone', ['steps','drone'], single_response=True)
     response('95% Accuracy on computation of diseases found in crops through video capture',['accuracy','computation'],single_response=True)
     response('16% Demand increase over the years from farmers',['demand','increase','drone'],single_response=True)
     response('45% Increase in growth in yield of the farm',['increase','yield'],single_response=True)
