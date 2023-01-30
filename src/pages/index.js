@@ -7,14 +7,14 @@ import { RawHtml, Override, Formspree } from "@quarkly/components";
 import { IoMdCheckmark, IoMdClose } from "react-icons/io";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import droneimg from "../images/droneimg.png"
-import mihir from "../images/Mihir.jpeg"
-import chaitya from "../images/chaitya.png"
-import vedant from "../images/vedant.jpg"
-import tejas from "../images/tejas.jpeg"
-import ratan from "../images/ratan.jpg"
-import prinkal from "../images/prinkal.jpg"
-import favicon from "../images/favicon.ico"
+import droneimg from "../images/droneimg.png";
+import mihir from "../images/Mihir.jpeg";
+import chaitya from "../images/chaitya.png";
+import vedant from "../images/vedant.jpg";
+import tejas from "../images/tejas.jpeg";
+import ratan from "../images/ratan.jpg";
+import prinkal from "../images/prinkal.jpg";
+import favicon from "../images/favicon.ico";
 
 export default (() => {
 	return <Theme theme={theme}>
@@ -326,7 +326,7 @@ export default (() => {
 					26%
 				</Text>
 				<Text margin="0px 0px 0px 0px" font="--base" color="--orange" text-align="center">
-					Usage Increase of drones in field of ariculture 
+					Usage Increase of drones in production margin
 				</Text>
 			</Box>
 		</Section>
