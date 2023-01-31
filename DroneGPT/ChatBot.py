@@ -54,7 +54,7 @@ def check_all_messages(message):
     # team members
     response('Mihir Panchal is a Information Technology Student at Shri Bhagubhai Mafatlal Polytechnic',['mihir','panchal'],single_response=True)
     response('Tejas Pandya is a Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic',['tejas','pandya'],single_response=True)
-    response('Vedant Kambli is a BTECH in AI student at Dwarkadas J. Sanghvi College of Engineering',['vedant','kambli'],single_response=True)
+    response('Vedant Kambli is pursuing BTech in AI/ML at Dwarkadas J. Sanghvi College of Engineering',['vedant','kambli'],single_response=True)
     response('Chaitya Gala is a Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic',['chaeitya','gala'],single_response=True)
     response('Ratan Kunwar is a Electrical Engineering Student at Shri Bhagubhai Mafatlal Polytechnic',['ratan','kunwar'],single_response=True)
      

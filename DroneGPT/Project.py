@@ -1,6 +1,7 @@
 from tkinter import *
 from PIL import ImageTk, Image
-from ChatBot import *
+from ChatBot import * 
+import webbrowser
 
 root=Tk()
 root.title("Drone GPT")
@@ -19,7 +20,9 @@ chatWindow = Frame(master=root,width=1920,height=1080)
 chatWindow.pack() 
 
 def logo():
-    dronegpt()
+    url = "https://agrodrone.netlify.app/"
+    webbrowser.open(url)
+
 
 def textgpt():
     text=query.get()
