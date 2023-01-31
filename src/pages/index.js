@@ -7,7 +7,7 @@ import { RawHtml, Override, Formspree } from "@quarkly/components";
 import { IoMdCheckmark, IoMdClose } from "react-icons/io";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import droneimg from "../assets/droneimg.png";
+// import droneimg from "../assets/droneimg.png";
 import mihir from "../assets/Mihir.jpeg";
 import chaitya from "../assets/chaitya.png";
 import vedant from "../assets/vedant.jpg";
