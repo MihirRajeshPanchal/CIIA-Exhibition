@@ -7,14 +7,14 @@ import { RawHtml, Override, Formspree } from "@quarkly/components";
 import { IoMdCheckmark, IoMdClose } from "react-icons/io";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-// import droneimg from '../images/droneimg.png';
-// import mihir from '../images/Mihir.jpeg';
-// import chaitya from '../images/chaitya.png';
-// import vedant from '../images/vedant.jpg';
-// import tejas from '../images/tejas.jpeg';
-// import ratan from '../images/ratan.jpg';
-// import prinkal from '../images/prinkal.jpg';
-// import favicon from '../images/favicon.ico';
+import droneimg from "../assets/droneimg.png";
+import mihir from "../assets/Mihir.jpeg";
+import chaitya from "../assets/chaitya.png";
+import vedant from "../assets/vedant.jpg";
+import tejas from "../assets/tejas.jpeg";
+import ratan from "../assets/ratan.jpg";
+import prinkal from "../assets/prinkal.jpg";
+import favicon from "../assets/favicon.ico";
 
 export default (() => {
 	return <Theme theme={theme}>
@@ -23,7 +23,7 @@ export default (() => {
 			<title>
 				AgroDrone - CIIA Exhibition
 			</title>
-			<link rel={"shortcut icon"} href="https://lh3.googleusercontent.com/lxUY0ZJvga-6PjQXFmy9q4hlBys9D1GLCwWDlv3s2XXW9fLifGltGfyzatQHW71sgGTtVtx0Br1dwdME89ILUaWDSqeXGlC-wicnxyAEpUyEQINeOA3ryl_THPNyoWJxg773qRcmbli8dmQrKgU09FO_H1av2M00_3eR7YzHwOUXxudZhcdTQf-YdLgJcg8kQ9yF0M8Pn86lfdmzmrIu0k2rA3h1xwnvZfaqnIv0oqJsqTDp4N4QHtL-okfQ_Rjc-a1pNsRW5jOgNjSlbzQ91rgJBOBl1VjEZ03YkG5emAh5fX0sbQCWNVn-JL315SmYn4I7YIs3lwtG71I6iXM8wTPECnPzqvt1WaiPS8ajF0QU7SHQHvweYfXqQ3w9z0ojGlc0w_jC9lQ_PFwjozFYjvsn3dZu6Sf4BKEgLlDmdcI8KGzmuPoz_l2YpPCPok13vfpoZ0TS4-OdXN4NAhJjnBgJ6T9kgKM1XEqAEI1a4w1iru76rWc4HYB6qocRH9-ANp_9OZ2o7ZM54mPgFKdHJ4ZhELDiO51QGADY-yR9cty49cyyeL4FEavnkRmthSyZQhyldVCp7dmOrpzV9IBtb3JV10oCf4UMqMgb4yAZmYeqS0PB3siWeTyjiTiHK_lnDAfLkn0MTH4u6wuFMrEeU7a8k7d-euVo4ZtKHc_juLFi6NoWI5rAbb6OkT7W4S6u3XsCKmGqkFVXrryXrgNkGSrLqME9wS1NOgi2stA0774LMU4zot4I1OAeOglmTaSRRRFiLnhFtQD9RqVtQvlCAj4vw1OYZOm4iqq_FE1SHZVNspiBWqm_VbI4CahQYF1ITiBnDDODwNAfzoq0P8G5MwjZFcaUFFmb87PEcaeLs7beFokAAhHL1OQ9QT0Qot53KTt84f_C82IKkPA31RufQfGlyc2d9SKerKnoaE5XV1Cf-lGuZ_I16Udb-jxqsjaZ6EzvPSkGX98qtXmGA7rKLlvhikRFBjNbQmiw3Oe5SLGpFrbyt6mzX6Q=w644-h267-no?authuser=0" type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={favicon} type={"image/x-icon"} />
 		</Helmet>
 		<Section background="#000000" color="#ffffff">
 			<Box
@@ -156,7 +156,7 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 			>
 				<Image
-					src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/droneimg.png?token=GHSAT0AAAAAAB5YKD45L6MNQ2C4M44JN7VKY6YS7TA"
+					src="https://www.pngitem.com/pimgs/m/86-867602_drone-quadcopter-png-dji-mavic-2-enterprise-zoom.png"
 					max-width="100%"
 					transform="translateY(10px)"
 					transition="transform 0.5s ease-in-out 0s"
@@ -917,7 +917,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/tejas.jpeg?token=GHSAT0AAAAAAB5YKD44TWX4GCXRLXJYR6E2Y6YTCBA"
+							src={tejas}
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -968,7 +968,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/vedant.jpg?token=GHSAT0AAAAAAB5YKD45IEKDIFP73NBN3BN2Y6YTBTQ"
+							src={vedant}
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1019,7 +1019,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/Mihir.jpeg?token=GHSAT0AAAAAAB5YKD45RSIHHLRX6WXHTBCKY6YS6LQ"
+							src={mihir}
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1070,7 +1070,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/chaitya.png?token=GHSAT0AAAAAAB5YKD44TG34FKALBIL6SJ3CY6YTADA"
+							src={chaitya}
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1121,7 +1121,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/ratan.jpg?token=GHSAT0AAAAAAB5YKD45MQDPQIG2P7XR7ESEY6YTBDQ"
+							src={ratan}
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1172,7 +1172,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/prinkal.jpg?token=GHSAT0AAAAAAB5YKD44SPHU5GRNNG4RQBN2Y6YTASA"
+							src={prinkal}
 							object-fit="cover"
 							position="absolute"
 							top={0}
