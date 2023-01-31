@@ -7,7 +7,7 @@ def unknown(message):
     openai.api_key = "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"
 
     # Set up the model and prompt
-    model_engine = "text-davinci-003"
+    model_engine = "text-davinci-002"
     prompt = message
 
     # Generate a response
