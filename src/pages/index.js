@@ -138,7 +138,7 @@ export default (() => {
 					lg-text-align="center"
 					lg-width="100%"
 				>
-				AgroDrone is a unmanned aerial vehicles (UAVs) used to collect data and perform various tasks related to crop management and farming operations. These drones are equipped with a variety of sensors and cameras that can be used to gather information on crop health, soil moisture levels, and crop yields.	
+				We provide agricultural solutions with the motive of "AI for AI"(Artificial Intelligence for Agricultural Innovation). The data collected by the drone will be used to train various AI models. These AI models will in turn suggest methods and predict crop outcomes.These drones are equipped with a variety of sensors and cameras that can be used to gather information on crop health, soil moisture levels, and crop yields.	
 				</Text>
 				<Box
 					display="flex"
@@ -957,7 +957,7 @@ export default (() => {
 					color="--darkL2"
 					lg-width="100%"
 				>
-				Our team specializes in the development and implementation of agricultural drones for precision farming. Our drones are equipped with state-of-the-art technology such as multi-spectral cameras and precision spraying systems, allowing for efficient and precise crop monitoring and maintenance. Our team consists of experts in fields such as drone engineering, precision agriculture, and computer vision, ensuring that our drones are at the forefront of technological advancements in the industry.	
+				Our team specializes in the development and implementation of agricultural drones for efficient farming. With the motive of "AI For AI"; we willingly work on various ways in bringing technology into the field of agriculture hoping to improve the quality of crops with increased yield and reduced farmer workload. We all love to learn new technologies & implement projects in any field.
 				</Text>
 			</Box>
 			<Box
