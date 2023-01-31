@@ -39,6 +39,71 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Section
+			padding="40px 0 40px 0"
+			background="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://www.nutanix.com/content/dam/nutanix-newsroom/drones-help-feed-the-world/drone-farming-og.jpg) center center/cover no-repeat"
+			min-height="100vh"
+			lg-padding="80px 0 80px 0"
+			md-padding="96px 0 96px 0"
+			sm-padding="72px 0 96px 0"
+		>
+			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				display="flex"
+				width="100%"
+				flex-direction="column"
+				justify-content="center"
+				align-items="center"
+				lg-width="100%"
+				lg-align-items="center"
+				lg-margin="0px 0px 0px 0px"
+				sm-margin="0px 0px 40px 0px"
+				margin="0px 0px 0px 0px"
+				padding="0px 0px 0px 0px"
+				md-margin="0px 0px 0px 0px"
+				sm-padding="0px 0px 0px 0px"
+			>
+				<Text
+					margin="0px 0px 24px 0px"
+					color="--light"
+					font="--headline1"
+					lg-text-align="center"
+					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					text-align="center"
+					width="80%"
+					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+					sm-width="100%"
+				>
+					AgroDrone
+				</Text>
+				<Text
+					margin="0px 0px 32px 0px"
+					color="#FFFFFF"
+					font="--lead"
+					lg-text-align="center"
+					text-align="center"
+				>
+					Bringing precision to the field, one flight at a time. 
+				</Text>
+				<Link
+					href="https://drive.google.com/file/d/11xJc_j_Yb9vINbACI_T5Ux58jQdG97bS/view"
+					padding="12px 24px 12px 24px"
+					color="--dark"
+					background="--color-secondary"
+					text-decoration-line="initial"
+					font="--lead"
+					border-radius="8px"
+					margin="0px 0px 0px 0px"
+					transition="background-color 0.2s ease-in-out 0s"
+					hover-background="--color-orange"
+					sm-margin="0px 0px 0px 0px"
+					sm-text-align="center"
+					hover-transition="background-color 0.2s ease-in-out 0s"
+				>
+					See More
+				</Link>
+			</Box>
+		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0px 60px 0px">
 			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
 			<Box
@@ -64,7 +129,7 @@ export default (() => {
 					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
 					lg-width="100%"
 				>
-					Bringing precision to the field, one flight at a time.
+					Team Eagle Eye
 				</Text>
 				<Text
 					margin="0px 0px 48px 0px"
@@ -113,6 +178,41 @@ export default (() => {
 				<Box
 					display="flex"
 					align-items="flex-start"
+					margin="0px 0px 32px 0px"
+					lg-width="50%"
+					lg-margin="0px 0px 0px 0px"
+					lg-padding="0px 16px 0px 0px"
+					md-width="100%"
+					md-margin="0px 0px 32px 0px"
+					md-padding="0px 0px 0px 0px"
+				>
+					<Text
+						padding="7px 24px 8px 24px"
+						margin="0px 0px 0px 0px"
+						font="--headline3"
+						background="--color-orange"
+						border-radius="50px"
+						align-items="center"
+						display="flex"
+						justify-content="center"
+						color="--light"
+						width="49px"
+						height="49px"
+					>
+						2
+					</Text>
+					<Box margin="0px 0px 0px 22px">
+						<Text margin="0px 0px 8px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
+							Data Collection and Transfer
+						</Text>
+						<Text margin="0px 0px 0px 0px" color="--greyD3" font="--base" lg-text-align="left">
+							Gathering and Exporting data from the drone
+						</Text>
+					</Box>
+				</Box>
+				<Box
+					display="flex"
+					align-items="flex-start"
 					lg-width="50%"
 					lg-padding="0px 0px 0px 16px"
 					md-width="100%"
@@ -131,14 +231,14 @@ export default (() => {
 						width="49px"
 						height="49px"
 					>
-						2
+						3
 					</Text>
 					<Box margin="0px 0px 0px 22px">
 						<Text margin="0px 0px 8px 0px" color="--darkL2" font="--headline3" lg-text-align="left">
-							Compute the video 
+							Compute and Analyze the data
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--greyD3" font="--base" lg-text-align="left">
-							Analyze the Video File and take decisions 
+							Processing and visualizing data using YOLO algorithm
 						</Text>
 					</Box>
 				</Box>
@@ -150,7 +250,7 @@ export default (() => {
 				overflow-y="hidden"
 				overflow-x="hidden"
 				lg-width="100%"
-				padding="0px 0px 0px 16px"
+				padding="60px 0px 0px 16px"
 				align-items="center"
 				lg-justify-content="center"
 				lg-padding="0px 0px 0px 0px"
@@ -164,172 +264,8 @@ export default (() => {
 				/>
 			</Box>
 		</Section>
-		<Section
-			padding="40px 0 40px 0"
-			background="linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://www.nutanix.com/content/dam/nutanix-newsroom/drones-help-feed-the-world/drone-farming-og.jpg) center center/cover no-repeat"
-			min-height="100vh"
-			lg-padding="80px 0 80px 0"
-			md-padding="96px 0 96px 0"
-			sm-padding="72px 0 96px 0"
-		>
-			<Override slot="SectionContent" flex-direction="row" flex-wrap="wrap" />
-			<Box
-				display="flex"
-				width="100%"
-				flex-direction="column"
-				justify-content="center"
-				align-items="center"
-				lg-width="100%"
-				lg-align-items="center"
-				lg-margin="0px 0px 0px 0px"
-				sm-margin="0px 0px 40px 0px"
-				margin="0px 0px 0px 0px"
-				padding="0px 0px 0px 0px"
-				md-margin="0px 0px 0px 0px"
-				sm-padding="0px 0px 0px 0px"
-			>
-				<Text
-					margin="0px 0px 24px 0px"
-					color="--light"
-					font="--headline1"
-					lg-text-align="center"
-					sm-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					text-align="center"
-					width="80%"
-					md-font="normal 700 42px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-					sm-width="100%"
-				>
-					Agriculture Drone
-				</Text>
-				<Text
-					margin="0px 0px 32px 0px"
-					color="#FFFFFF"
-					font="--lead"
-					lg-text-align="center"
-					text-align="center"
-				>
-					Is a reliable companion for day-to-day use and sport
-				</Text>
-				<Link
-					href="https://drive.google.com/file/d/11xJc_j_Yb9vINbACI_T5Ux58jQdG97bS/view"
-					padding="12px 24px 12px 24px"
-					color="--dark"
-					background="--color-secondary"
-					text-decoration-line="initial"
-					font="--lead"
-					border-radius="8px"
-					margin="0px 0px 0px 0px"
-					transition="background-color 0.2s ease-in-out 0s"
-					hover-background="--color-orange"
-					sm-margin="0px 0px 0px 0px"
-					sm-text-align="center"
-					hover-transition="background-color 0.2s ease-in-out 0s"
-				>
-					See More
-				</Link>
-			</Box>
-		</Section>
-		<Section padding="88px 0 88px 0" background="--color-dark">
-			<Override slot="SectionContent" max-width="1220px" flex-direction="row" flex-wrap="wrap" />
-			<Box
-				width="100%"
-				padding="15px 15px 15px 15px"
-				display="flex"
-				flex-direction="column"
-				justify-content="center"
-				align-items="center"
-			>
-				<Text margin="0px 0px 24px 0px" font="--headline1" color="#ffffff">
-					Stats
-				</Text>
-				<Text
-					margin="0px 0px 0px 0px"
-					font="--lead"
-					color="--light"
-					width="45%"
-					text-align="center"
-					lg-width="100%"
-				>
-					Following are the statistics about AgroDrone in market	
-				</Text>
-			</Box>
-			<Box
-				width="100%"
-				margin="30px 0px 30px 0px"
-				border-radius="16px"
-				background="rgba(0, 0, 0, 0) url(https://tropogo.com/blogs/images/blog/bg_spraying.png) 0% 0% /cover no-repeat scroll padding-box"
-				min-height="536px"
-				sm-min-height="200px"
-			/>
-			<Box
-				width="25%"
-				padding="15px 15px 15px 15px"
-				display="flex"
-				align-items="flex-start"
-				justify-content="center"
-				flex-direction="column"
-				lg-width="50%"
-				sm-width="100%"
-			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--light">
-					95%
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--base" color="--orange" text-align="center">
-					Accuracy on computation of diseases found in crops through video capture
-				</Text>
-			</Box>
-			<Box
-				width="25%"
-				padding="15px 15px 15px 15px"
-				display="flex"
-				align-items="flex-start"
-				justify-content="center"
-				flex-direction="column"
-				lg-width="50%"
-				sm-width="100%"
-			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--light">
-					16%
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--base" color="--orange" text-align="center">
-					Demand increase over the years from farmers
-				</Text>
-			</Box>
-			<Box
-				width="25%"
-				padding="15px 15px 15px 15px"
-				display="flex"
-				align-items="flex-start"
-				justify-content="center"
-				flex-direction="column"
-				lg-width="50%"
-				sm-width="100%"
-			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--light">
-					45%
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--base" color="--orange" text-align="center">
-					Increase in growth in yield of the farm
-				</Text>
-			</Box>
-			<Box
-				width="25%"
-				padding="15px 15px 15px 15px"
-				display="flex"
-				align-items="flex-start"
-				justify-content="center"
-				flex-direction="column"
-				lg-width="50%"
-				sm-width="100%"
-			>
-				<Text margin="0px 0px 16px 0px" font="--headline1" color="--light">
-					26%
-				</Text>
-				<Text margin="0px 0px 0px 0px" font="--base" color="--orange" text-align="center">
-					Usage Increase of drones in production margin
-				</Text>
-			</Box>
-		</Section>
+		
+		
 		<Section padding="80px 0 80px 0" lg-padding="60px 0 60px 0" sm-padding="30px 0 30px 0" background="--color-dark">
 			<Box
 				margin="0px 0px 40px 0px"
@@ -624,204 +560,6 @@ export default (() => {
 							height="72px"
 							lg-height="64px"
 						>
-							FY - 450
-						</Text>
-						<Box
-							margin="0px 0px 28px 0px"
-							background="rgba(247, 251, 255, 0.15)"
-							border-radius="100%"
-							height="40px"
-							md-margin="0px 0px 15px 0px"
-							sm-margin="0px 0px 14px 0px"
-						>
-							<Icon
-								category="io"
-								icon={IoMdCheckmark}
-								width="40px"
-								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
-								color="#F7FBFF"
-								margin="0px 0px 28px 0px"
-							/>
-						</Box>
-						<Box
-							margin="0px 0px 28px 0px"
-							background="rgba(247, 251, 255, 0.15)"
-							border-radius="100%"
-							height="40px"
-							md-margin="0px 0px 15px 0px"
-							sm-margin="0px 0px 14px 0px"
-						>
-							<Icon
-								category="io"
-								icon={IoMdCheckmark}
-								width="40px"
-								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
-								color="#F7FBFF"
-								margin="0px 0px 28px 0px"
-							/>
-						</Box>
-						<Box
-							margin="0px 0px 28px 0px"
-							background="rgba(247, 251, 255, 0.15)"
-							border-radius="100%"
-							height="40px"
-							md-margin="0px 0px 15px 0px"
-							sm-margin="0px 0px 14px 0px"
-						>
-							<Icon
-								category="io"
-								icon={IoMdCheckmark}
-								width="40px"
-								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
-								color="#F7FBFF"
-								margin="0px 0px 28px 0px"
-							/>
-						</Box>
-						<Box
-							margin="0px 0px 28px 0px"
-							background="rgba(247, 251, 255, 0.15)"
-							border-radius="100%"
-							height="40px"
-							md-margin="0px 0px 15px 0px"
-							sm-margin="0px 0px 14px 0px"
-						>
-							<Icon
-								category="io"
-								icon={IoMdCheckmark}
-								width="40px"
-								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
-								color="#F7FBFF"
-								margin="0px 0px 28px 0px"
-							/>
-						</Box>
-						<Box
-							margin="0px 0px 28px 0px"
-							background="rgba(247, 251, 255, 0.15)"
-							border-radius="100%"
-							height="40px"
-							md-margin="0px 0px 15px 0px"
-							sm-margin="0px 0px 14px 0px"
-						>
-							<Icon
-								category="io"
-								icon={IoMdCheckmark}
-								width="40px"
-								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
-								color="#F7FBFF"
-								margin="0px 0px 28px 0px"
-							/>
-						</Box>
-						<Box
-							margin="0px 0px 28px 0px"
-							background="--color-darkL1"
-							border-radius="100%"
-							height="40px"
-							md-margin="0px 0px 15px 0px"
-							sm-margin="0px 0px 14px 0px"
-						>
-							<Icon
-								category="io"
-								icon={IoMdClose}
-								width="40px"
-								height="40px"
-								color="#F7FBFF"
-								margin="0px 0px 28px 0px"
-								opacity=".25"
-								size="30px"
-							/>
-						</Box>
-						<Box
-							margin="0px 0px 28px 0px"
-							background="rgba(247, 251, 255, 0.15)"
-							border-radius="100%"
-							height="40px"
-							md-margin="0px 0px 15px 0px"
-							sm-margin="0px 0px 14px 0px"
-						>
-							<Icon
-								category="io"
-								icon={IoMdCheckmark}
-								width="40px"
-								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
-								color="#F7FBFF"
-								margin="0px 0px 28px 0px"
-							/>
-						</Box>
-						<Box
-							margin="0px 0px 28px 0px"
-							background="--color-darkL1"
-							border-radius="100%"
-							height="40px"
-							md-margin="0px 0px 15px 0px"
-							sm-margin="0px 0px 14px 0px"
-						>
-							<Icon
-								category="io"
-								icon={IoMdClose}
-								width="40px"
-								height="40px"
-								color="#F7FBFF"
-								margin="0px 0px 28px 0px"
-								opacity=".25"
-								size="30px"
-							/>
-						</Box>
-						<Box
-							margin="0px 0px 0px 0px"
-							background="--color-darkL1"
-							border-radius="100%"
-							height="40px"
-							md-margin="0px 0px 15px 0px"
-							sm-margin="0px 0px 14px 0px"
-						>
-							<Icon
-								category="io"
-								icon={IoMdClose}
-								width="40px"
-								height="40px"
-								color="#F7FBFF"
-								margin="0px 0px 28px 0px"
-								opacity=".25"
-								size="30px"
-							/>
-						</Box>
-					</Box>
-				</Box>
-				<Box sm-padding="15px 4px 15px 4px">
-					<Box
-						display="flex"
-						flex-wrap="wrap"
-						width="100%"
-						background="--color-darkL2"
-						border-width="1px"
-						border-style="solid"
-						border-radius="16px"
-						padding="32px 0px 64px 0px"
-						flex-direction="column"
-						align-items="center"
-					>
-						<Text
-							color="--light"
-							font="--headline3"
-							margin="0px 0px 0px 0px"
-							lg-text-align="center"
-							lg-font="normal 600 20px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-							md-font="normal 500 12px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
-							height="72px"
-							lg-height="64px"
-						>
 							Pluto X 
 						</Text>
 						<Box
@@ -921,7 +659,7 @@ export default (() => {
 						</Box>
 						<Box
 							margin="0px 0px 28px 0px"
-							background="rgba(247, 251, 255, 0.15)"
+							background="--color-darkL1"
 							border-radius="100%"
 							height="40px"
 							md-margin="0px 0px 15px 0px"
@@ -929,13 +667,13 @@ export default (() => {
 						>
 							<Icon
 								category="io"
-								icon={IoMdCheckmark}
+								icon={IoMdClose}
 								width="40px"
 								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
 								color="#F7FBFF"
 								margin="0px 0px 28px 0px"
+								opacity=".25"
+								size="30px"
 							/>
 						</Box>
 						<Box
@@ -978,6 +716,52 @@ export default (() => {
 						</Box>
 						<Box
 							margin="0px 0px 0px 0px"
+							background="--color-darkL1"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdClose}
+								width="40px"
+								height="40px"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+								opacity=".25"
+								size="30px"
+							/>
+						</Box>
+					</Box>
+				</Box>
+				<Box sm-padding="15px 4px 15px 4px">
+					<Box
+						display="flex"
+						flex-wrap="wrap"
+						width="100%"
+						background="--color-darkL2"
+						border-width="1px"
+						border-style="solid"
+						border-radius="16px"
+						padding="32px 0px 64px 0px"
+						flex-direction="column"
+						align-items="center"
+					>
+						<Text
+							color="--light"
+							font="--headline3"
+							margin="0px 0px 0px 0px"
+							lg-text-align="center"
+							lg-font="normal 600 20px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+							md-font="normal 500 12px/1.2 &quot;Source Sans Pro&quot;, sans-serif"
+							height="72px"
+							lg-height="64px"
+						>
+							FY - 450
+						</Text>
+						<Box
+							margin="0px 0px 28px 0px"
 							background="rgba(247, 251, 255, 0.15)"
 							border-radius="100%"
 							height="40px"
@@ -995,10 +779,163 @@ export default (() => {
 								margin="0px 0px 28px 0px"
 							/>
 						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 0px 0px"
+							background="--color-darkL1"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdClose}
+								width="40px"
+								height="40px"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+								opacity=".25"
+								size="30px"
+							/>
+						</Box>
 					</Box>
 				</Box>
 			</Box>
 		</Section>
+		
 		<Section padding="80px 0 80px 0">
 			<Box
 				display="flex"
@@ -1341,6 +1278,40 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		{/* <Section padding="88px 0 88px 0" background="--color-dark">
+			<Override slot="SectionContent" max-width="1220px" flex-direction="row" flex-wrap="wrap" />
+			<Box
+				width="100%"
+				padding="15px 15px 15px 15px"
+				display="flex"
+				flex-direction="column"
+				justify-content="center"
+				align-items="center"
+			>
+				<Text margin="0px 0px 24px 0px" font="--headline1" color="#ffffff">
+					Gallery
+				</Text>
+				<Text
+					margin="0px 0px 0px 0px"
+					font="--lead"
+					color="--light"
+					width="45%"
+					text-align="center"
+					lg-width="100%"
+				>
+					Following are the statistics about AgroDrone in market	
+				</Text>
+			</Box>
+			<Box
+				width="100%"
+				margin="30px 0px 30px 0px"
+				border-radius="16px"
+				background="rgba(0, 0, 0, 0) url(https://tropogo.com/blogs/images/blog/bg_spraying.png) 0% 0% /cover no-repeat scroll padding-box"
+				min-height="536px"
+				sm-min-height="200px"
+			/>
+			
+		</Section> */}
 		<Section
 			color="--light"
 			padding="100px 0"

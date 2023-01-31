@@ -23,9 +23,10 @@ def logo():
 
 def textgpt():
     text=query.get()
-    ans=get_response(text)
-    v.set(ans)
-    tts(ans)
+    res=get_response(text)
+    ans.delete(1.0, END)
+    ans.insert(INSERT, res)
+    tts(res)
 
 v = StringVar()
 
@@ -55,7 +56,7 @@ searchbtn.place(x=1310,y=655)
 audiobtn = Button(master=chatWindow,text="Audio",image = mic, command=dronegpt)
 audiobtn.place(x=1395,y=655)
 
-ans = Entry(master=chatWindow, background="#c5c6d0", font=("Helvetica", 20) ,textvariable=v)
+ans = Text(master=chatWindow, background="#c5c6d0", font=("Helvetica", 20))
 ans.place(x=350,y=100,width=940,height=305)
 
 cpyrghttxt=Label(master=chatWindow,text="Made with Love ❤️ by Team AgroDrone",justify='center',font=("Helvetica"))
