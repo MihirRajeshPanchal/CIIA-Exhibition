@@ -106,7 +106,7 @@ export default (() => {
 							Fly the Drone
 						</Text>
 						<Text margin="0px 0px 0px 0px" color="--greyD3" font="--base" lg-text-align="left">
-							Survey the land to capture the video of crops	
+							Autonomous flight path with object avoidance
 						</Text>
 					</Box>
 				</Box>
@@ -365,7 +365,7 @@ export default (() => {
 					lg-width="100%"
 					lg-text-align="center"
 				>
-					AgroDrone is built different with respect to its application in agricultural activities
+					AgroDrone is built different with respect to its application in agricultural activities.
 				</Text>
 			</Box>
 			<Box width="100%" display="grid" grid-template-columns="repeat(4, 1fr)" grid-gap="32px">
@@ -382,25 +382,31 @@ export default (() => {
 						md-padding="92px 0px 64px 0px"
 					>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Long Flight Time
+							Flight Time
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Far Range
+							Range
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							High Speed
+							Speed
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Good Payload Capacity
+							Payload Capacity
+						</Text>
+						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+							Automated Flight Path
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
 							HD Camera
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							Good Battery Life
+							Battery Life
+						</Text>
+						<Text color="--light" font="--headline3" margin="0px 0px 35px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
+							AI Integration
 						</Text>
 						<Text color="--light" font="--headline3" margin="0px 0px 0px 0px" md-font="normal 500 16px/1.2 &quot;Source Sans Pro&quot;, sans-serif">
-							High Precision
+							Field Mapping
 						</Text>
 					</Box>
 				</Box>
@@ -427,8 +433,46 @@ export default (() => {
 							height="72px"
 							lg-height="64px"
 						>
-							AgroDrone
+							Garuda
 						</Text>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
 						<Box
 							margin="0px 0px 28px 0px"
 							background="rgba(247, 251, 255, 0.15)"
@@ -580,7 +624,7 @@ export default (() => {
 							height="72px"
 							lg-height="64px"
 						>
-							DJI Drone
+							FY - 450
 						</Text>
 						<Box
 							margin="0px 0px 28px 0px"
@@ -603,7 +647,7 @@ export default (() => {
 						</Box>
 						<Box
 							margin="0px 0px 28px 0px"
-							background="--color-darkL1"
+							background="rgba(247, 251, 255, 0.15)"
 							border-radius="100%"
 							height="40px"
 							md-margin="0px 0px 15px 0px"
@@ -611,18 +655,18 @@ export default (() => {
 						>
 							<Icon
 								category="io"
-								icon={IoMdClose}
+								icon={IoMdCheckmark}
 								width="40px"
 								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
 								color="#F7FBFF"
 								margin="0px 0px 28px 0px"
-								opacity=".25"
-								size="30px"
 							/>
 						</Box>
 						<Box
 							margin="0px 0px 28px 0px"
-							background="--color-darkL1"
+							background="rgba(247, 251, 255, 0.15)"
 							border-radius="100%"
 							height="40px"
 							md-margin="0px 0px 15px 0px"
@@ -630,13 +674,51 @@ export default (() => {
 						>
 							<Icon
 								category="io"
-								icon={IoMdClose}
+								icon={IoMdCheckmark}
 								width="40px"
 								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
 								color="#F7FBFF"
 								margin="0px 0px 28px 0px"
-								opacity=".25"
-								size="30px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
 							/>
 						</Box>
 						<Box
@@ -679,7 +761,7 @@ export default (() => {
 						</Box>
 						<Box
 							margin="0px 0px 28px 0px"
-							background="rgba(247, 251, 255, 0.15)"
+							background="--color-darkL1"
 							border-radius="100%"
 							height="40px"
 							md-margin="0px 0px 15px 0px"
@@ -687,25 +769,32 @@ export default (() => {
 						>
 							<Icon
 								category="io"
-								icon={IoMdCheckmark}
+								icon={IoMdClose}
 								width="40px"
 								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
 								color="#F7FBFF"
 								margin="0px 0px 28px 0px"
+								opacity=".25"
+								size="30px"
 							/>
 						</Box>
-						<Box margin="0px 0px 0px 0px" background="rgba(247, 251, 255, 0.15)" border-radius="100%" height="40px">
+						<Box
+							margin="0px 0px 0px 0px"
+							background="--color-darkL1"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
 							<Icon
 								category="io"
-								icon={IoMdCheckmark}
+								icon={IoMdClose}
 								width="40px"
 								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
 								color="#F7FBFF"
 								margin="0px 0px 28px 0px"
+								opacity=".25"
+								size="30px"
 							/>
 						</Box>
 					</Box>
@@ -733,11 +822,11 @@ export default (() => {
 							height="72px"
 							lg-height="64px"
 						>
-							Inside FPV
+							Pluto X 
 						</Text>
 						<Box
 							margin="0px 0px 28px 0px"
-							background="rgba(247, 251, 255, 0.15)"
+							background="--color-darkL1"
 							border-radius="100%"
 							height="40px"
 							md-margin="0px 0px 15px 0px"
@@ -745,32 +834,13 @@ export default (() => {
 						>
 							<Icon
 								category="io"
-								icon={IoMdCheckmark}
+								icon={IoMdClose}
 								width="40px"
 								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
 								color="#F7FBFF"
 								margin="0px 0px 28px 0px"
-							/>
-						</Box>
-						<Box
-							margin="0px 0px 28px 0px"
-							background="rgba(247, 251, 255, 0.15)"
-							border-radius="100%"
-							height="40px"
-							md-margin="0px 0px 15px 0px"
-							sm-margin="0px 0px 14px 0px"
-						>
-							<Icon
-								category="io"
-								icon={IoMdCheckmark}
-								width="40px"
-								height="40px"
-								background="rgba(247, 251, 255, 0.15)"
-								border-radius="100%"
-								color="#F7FBFF"
-								margin="0px 0px 28px 0px"
+								opacity=".25"
+								size="30px"
 							/>
 						</Box>
 						<Box
@@ -849,7 +919,33 @@ export default (() => {
 								margin="0px 0px 28px 0px"
 							/>
 						</Box>
-						<Box margin="0px 0px 0px 0px" background="--color-darkL1" border-radius="100%" height="40px">
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="--color-darkL1"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
 							<Icon
 								category="io"
 								icon={IoMdClose}
@@ -859,6 +955,44 @@ export default (() => {
 								margin="0px 0px 28px 0px"
 								opacity=".25"
 								size="30px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 28px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
+							/>
+						</Box>
+						<Box
+							margin="0px 0px 0px 0px"
+							background="rgba(247, 251, 255, 0.15)"
+							border-radius="100%"
+							height="40px"
+							md-margin="0px 0px 15px 0px"
+							sm-margin="0px 0px 14px 0px"
+						>
+							<Icon
+								category="io"
+								icon={IoMdCheckmark}
+								width="40px"
+								height="40px"
+								background="rgba(247, 251, 255, 0.15)"
+								border-radius="100%"
+								color="#F7FBFF"
+								margin="0px 0px 28px 0px"
 							/>
 						</Box>
 					</Box>

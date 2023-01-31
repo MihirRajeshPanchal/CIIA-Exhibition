@@ -46,7 +46,7 @@ resize_image = mic.resize((55,55))
 mic = ImageTk.PhotoImage(resize_image)
 
 query = Entry(master=chatWindow, background="#c5c6d0", font=("Helvetica", 30))
-query.place(x=250,y=655,width=1040,height=55)
+query.place(x=350,y=655,width=940,height=55)
 
 searchbtn = Button(master=chatWindow,text="Search",image = search, command=textgpt)
 searchbtn.place(x=1310,y=655)
@@ -55,8 +55,8 @@ searchbtn.place(x=1310,y=655)
 audiobtn = Button(master=chatWindow,text="Audio",image = mic, command=dronegpt)
 audiobtn.place(x=1395,y=655)
 
-# ans = Entry(master=chatWindow, background="#ffffff", font=("Helvetica", 20) ,textvariable=v)
-# ans.place(x=200,y=450,width=1190,height=305)
+ans = Entry(master=chatWindow, background="#c5c6d0", font=("Helvetica", 20) ,textvariable=v)
+ans.place(x=350,y=100,width=940,height=305)
 
 cpyrghttxt=Label(master=chatWindow,text="Made with Love ❤️ by Team AgroDrone",justify='center',font=("Helvetica"))
 cpyrghttxt.place(x=1230,y=770,width=300)
