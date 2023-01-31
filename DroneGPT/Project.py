@@ -30,39 +30,33 @@ def textgpt():
 v = StringVar()
 
 background = Label(master= chatWindow, image = bgimg)
+# background = Label(master= chatWindow, background="grey")
 background.pack()
 
 logoimg = ImageTk.PhotoImage(Image.open('DroneGPT/Photos/logo.jfif').resize((100,100)))
 logobtn = Button(chatWindow, image=logoimg, bg="#323232", activebackground="#323232", relief=RAISED, bd=3,command=logo)
-logobtn.place(x=540,y=130)
+logobtn.place(x=720,y=130)
 
 search= Image.open("DroneGPT/Photos/search.png")
-resize_image = search.resize((70,70))
+resize_image = search.resize((20,20))
 search = ImageTk.PhotoImage(resize_image)
 
 mic= Image.open("DroneGPT/Photos/mic.png")
-resize_image = mic.resize((70,70))
+resize_image = mic.resize((20,20))
 mic = ImageTk.PhotoImage(resize_image)
 
-query = Entry(master=chatWindow, background="#ffffff", font=("Helvetica", 32))
-query.place(x=200,y=250,width=790,height=75)
-querytext=Label(master=chatWindow,text="Search Bar",justify='center',font=("Helvetica"))
-querytext.place(x=201,y=325,width=790)
+query = Entry(master=chatWindow, background="grey", font=("Helvetica", 20))
+query.place(x=200,y=300,width=1090,height=35)
 
 searchbtn = Button(master=chatWindow,text="Search",image = search, command=textgpt)
-searchbtn.place(x=1010,y=250)
-searchtext=Label(master=chatWindow,text="Search",justify='center',font=("Helvetica"))
-searchtext.place(x=1010,y=320,width=75)
+searchbtn.place(x=1310,y=305)
+
 
 audiobtn = Button(master=chatWindow,text="Audio",image = mic, command=dronegpt)
-audiobtn.place(x=1170,y=250)
-audiotxt=Label(master=chatWindow,text="Audio",justify='center',font=("Helvetica"))
-audiotxt.place(x=1170,y=320,width=75)
+audiobtn.place(x=1350,y=305)
 
-ans = Entry(master=chatWindow, background="#ffffff", font=("Helvetica", 32) ,textvariable=v)
-ans.place(x=200,y=450,width=790,height=75)
-anstext=Label(master=chatWindow,text="DroneGPT Answer",justify='center',font=("Helvetica"))
-anstext.place(x=201,y=450,width=790)
+ans = Entry(master=chatWindow, background="#ffffff", font=("Helvetica", 20) ,textvariable=v)
+ans.place(x=200,y=450,width=1190,height=305)
 
 cpyrghttxt=Label(master=chatWindow,text="Made with Love ❤️ by Team AgroDrone",justify='center',font=("Helvetica"))
 cpyrghttxt.place(x=1230,y=770,width=300)
