@@ -23,7 +23,7 @@ export default (() => {
 			<title>
 				AgroDrone - CIIA Exhibition
 			</title>
-			<link rel={"shortcut icon"} href="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/favicon.ico?token=GHSAT0AAAAAAB5YKD457ABNNN6SR7GZYIZCY6YTDBQ" type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href="https://lh3.googleusercontent.com/lxUY0ZJvga-6PjQXFmy9q4hlBys9D1GLCwWDlv3s2XXW9fLifGltGfyzatQHW71sgGTtVtx0Br1dwdME89ILUaWDSqeXGlC-wicnxyAEpUyEQINeOA3ryl_THPNyoWJxg773qRcmbli8dmQrKgU09FO_H1av2M00_3eR7YzHwOUXxudZhcdTQf-YdLgJcg8kQ9yF0M8Pn86lfdmzmrIu0k2rA3h1xwnvZfaqnIv0oqJsqTDp4N4QHtL-okfQ_Rjc-a1pNsRW5jOgNjSlbzQ91rgJBOBl1VjEZ03YkG5emAh5fX0sbQCWNVn-JL315SmYn4I7YIs3lwtG71I6iXM8wTPECnPzqvt1WaiPS8ajF0QU7SHQHvweYfXqQ3w9z0ojGlc0w_jC9lQ_PFwjozFYjvsn3dZu6Sf4BKEgLlDmdcI8KGzmuPoz_l2YpPCPok13vfpoZ0TS4-OdXN4NAhJjnBgJ6T9kgKM1XEqAEI1a4w1iru76rWc4HYB6qocRH9-ANp_9OZ2o7ZM54mPgFKdHJ4ZhELDiO51QGADY-yR9cty49cyyeL4FEavnkRmthSyZQhyldVCp7dmOrpzV9IBtb3JV10oCf4UMqMgb4yAZmYeqS0PB3siWeTyjiTiHK_lnDAfLkn0MTH4u6wuFMrEeU7a8k7d-euVo4ZtKHc_juLFi6NoWI5rAbb6OkT7W4S6u3XsCKmGqkFVXrryXrgNkGSrLqME9wS1NOgi2stA0774LMU4zot4I1OAeOglmTaSRRRFiLnhFtQD9RqVtQvlCAj4vw1OYZOm4iqq_FE1SHZVNspiBWqm_VbI4CahQYF1ITiBnDDODwNAfzoq0P8G5MwjZFcaUFFmb87PEcaeLs7beFokAAhHL1OQ9QT0Qot53KTt84f_C82IKkPA31RufQfGlyc2d9SKerKnoaE5XV1Cf-lGuZ_I16Udb-jxqsjaZ6EzvPSkGX98qtXmGA7rKLlvhikRFBjNbQmiw3Oe5SLGpFrbyt6mzX6Q=w644-h267-no?authuser=0" type={"image/x-icon"} />
 		</Helmet>
 		<Section background="#000000" color="#ffffff">
 			<Box
