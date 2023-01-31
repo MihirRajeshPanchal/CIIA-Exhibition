@@ -1429,7 +1429,7 @@ export default (() => {
 				color="--grey"
 				hover-color="--primary"
 			>
-				Made with ❤️ By Team AgroDrone from Shri Bhagubhai Mafatlal Polytechnic
+				Made with Love By Team AgroDrone from Shri Bhagubhai Mafatlal Polytechnic
 			</Link>
 		</Section>
 		<Link
