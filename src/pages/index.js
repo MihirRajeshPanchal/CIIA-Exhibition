@@ -211,7 +211,7 @@ export default (() => {
 					Is a reliable companion for day-to-day use and sport
 				</Text>
 				<Link
-					href="#"
+					href="https://drive.google.com/file/d/11xJc_j_Yb9vINbACI_T5Ux58jQdG97bS/view"
 					padding="12px 24px 12px 24px"
 					color="--dark"
 					background="--color-secondary"
@@ -225,7 +225,7 @@ export default (() => {
 					sm-text-align="center"
 					hover-transition="background-color 0.2s ease-in-out 0s"
 				>
-					Compute Video
+					See More
 				</Link>
 			</Box>
 		</Section>

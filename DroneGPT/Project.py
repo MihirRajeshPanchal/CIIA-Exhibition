@@ -35,28 +35,28 @@ background.pack()
 
 logoimg = ImageTk.PhotoImage(Image.open('DroneGPT/Photos/logo.jfif').resize((100,100)))
 logobtn = Button(chatWindow, image=logoimg, bg="#323232", activebackground="#323232", relief=RAISED, bd=3,command=logo)
-logobtn.place(x=720,y=130)
+logobtn.place(x=100,y=625)
 
 search= Image.open("DroneGPT/Photos/search.png")
-resize_image = search.resize((20,20))
+resize_image = search.resize((55,55))
 search = ImageTk.PhotoImage(resize_image)
 
 mic= Image.open("DroneGPT/Photos/mic.png")
-resize_image = mic.resize((20,20))
+resize_image = mic.resize((55,55))
 mic = ImageTk.PhotoImage(resize_image)
 
-query = Entry(master=chatWindow, background="grey", font=("Helvetica", 20))
-query.place(x=200,y=300,width=1090,height=35)
+query = Entry(master=chatWindow, background="#c5c6d0", font=("Helvetica", 30))
+query.place(x=250,y=655,width=1040,height=55)
 
 searchbtn = Button(master=chatWindow,text="Search",image = search, command=textgpt)
-searchbtn.place(x=1310,y=305)
+searchbtn.place(x=1310,y=655)
 
 
 audiobtn = Button(master=chatWindow,text="Audio",image = mic, command=dronegpt)
-audiobtn.place(x=1350,y=305)
+audiobtn.place(x=1395,y=655)
 
-ans = Entry(master=chatWindow, background="#ffffff", font=("Helvetica", 20) ,textvariable=v)
-ans.place(x=200,y=450,width=1190,height=305)
+# ans = Entry(master=chatWindow, background="#ffffff", font=("Helvetica", 20) ,textvariable=v)
+# ans.place(x=200,y=450,width=1190,height=305)
 
 cpyrghttxt=Label(master=chatWindow,text="Made with Love ❤️ by Team AgroDrone",justify='center',font=("Helvetica"))
 cpyrghttxt.place(x=1230,y=770,width=300)
