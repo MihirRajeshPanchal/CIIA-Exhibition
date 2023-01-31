@@ -7,14 +7,14 @@ import { RawHtml, Override, Formspree } from "@quarkly/components";
 import { IoMdCheckmark, IoMdClose } from "react-icons/io";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import droneimg from "../images/droneimg.png";
-import mihir from "../images/Mihir.jpeg";
-import chaitya from "../images/chaitya.png";
-import vedant from "../images/vedant.jpg";
-import tejas from "../images/tejas.jpeg";
-import ratan from "../images/ratan.jpg";
-import prinkal from "../images/prinkal.jpg";
-import favicon from "../images/favicon.ico";
+// import droneimg from '../images/droneimg.png';
+// import mihir from '../images/Mihir.jpeg';
+// import chaitya from '../images/chaitya.png';
+// import vedant from '../images/vedant.jpg';
+// import tejas from '../images/tejas.jpeg';
+// import ratan from '../images/ratan.jpg';
+// import prinkal from '../images/prinkal.jpg';
+// import favicon from '../images/favicon.ico';
 
 export default (() => {
 	return <Theme theme={theme}>
@@ -23,7 +23,7 @@ export default (() => {
 			<title>
 				AgroDrone - CIIA Exhibition
 			</title>
-			<link rel={"shortcut icon"} href={favicon} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/favicon.ico?token=GHSAT0AAAAAAB5YKD457ABNNN6SR7GZYIZCY6YTDBQ" type={"image/x-icon"} />
 		</Helmet>
 		<Section background="#000000" color="#ffffff">
 			<Box
@@ -156,7 +156,7 @@ export default (() => {
 				lg-padding="0px 0px 0px 0px"
 			>
 				<Image
-					src={droneimg}
+					src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/droneimg.png?token=GHSAT0AAAAAAB5YKD45L6MNQ2C4M44JN7VKY6YS7TA"
 					max-width="100%"
 					transform="translateY(10px)"
 					transition="transform 0.5s ease-in-out 0s"
@@ -917,7 +917,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src={tejas}
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/tejas.jpeg?token=GHSAT0AAAAAAB5YKD44TWX4GCXRLXJYR6E2Y6YTCBA"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -968,7 +968,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src={vedant}
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/vedant.jpg?token=GHSAT0AAAAAAB5YKD45IEKDIFP73NBN3BN2Y6YTBTQ"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1019,7 +1019,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src={mihir}
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/Mihir.jpeg?token=GHSAT0AAAAAAB5YKD45RSIHHLRX6WXHTBCKY6YS6LQ"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1070,7 +1070,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src={chaitya}
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/chaitya.png?token=GHSAT0AAAAAAB5YKD44TG34FKALBIL6SJ3CY6YTADA"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1121,7 +1121,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src={ratan}
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/ratan.jpg?token=GHSAT0AAAAAAB5YKD45MQDPQIG2P7XR7ESEY6YTBDQ"
 							object-fit="cover"
 							position="absolute"
 							top={0}
@@ -1172,7 +1172,7 @@ export default (() => {
 					>
 						<Image
 							border-radius="50%"
-							src={prinkal}
+							src="https://raw.githubusercontent.com/MihirRajeshPanchal/CIIA-Exhibition/main/src/images/prinkal.jpg?token=GHSAT0AAAAAAB5YKD44SPHU5GRNNG4RQBN2Y6YTASA"
 							object-fit="cover"
 							position="absolute"
 							top={0}
