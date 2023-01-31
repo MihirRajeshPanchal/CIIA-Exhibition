@@ -26,9 +26,21 @@ def logo():
 
 def textgpt():
     text=query.get()
+    ans.insert(INSERT, text)
+    ans.insert(INSERT, "\n")
     res=get_response(text)
-    ans.delete(1.0, END)
     ans.insert(INSERT, res)
+    ans.insert(INSERT, "\n")
+    # tts(res)
+    
+def voicegpt():
+    tts("Hello I am DroneGPT")
+    text=stt()
+    ans.insert(INSERT, text)
+    ans.insert(INSERT, "\n")
+    res=get_response(text)
+    ans.insert(INSERT, res)
+    ans.insert(INSERT, "\n")
     tts(res)
 
 v = StringVar()
@@ -56,7 +68,7 @@ searchbtn = Button(master=chatWindow,text="Search",image = search, command=textg
 searchbtn.place(x=1310,y=655)
 
 
-audiobtn = Button(master=chatWindow,text="Audio",image = mic, command=dronegpt)
+audiobtn = Button(master=chatWindow,text="Audio",image = mic, command=voicegpt)
 audiobtn.place(x=1395,y=655)
 
 ans = Text(master=chatWindow, background="#c5c6d0", font=("Helvetica", 20))
