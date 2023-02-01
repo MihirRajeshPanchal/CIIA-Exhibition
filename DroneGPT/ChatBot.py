@@ -33,6 +33,9 @@ def check_all_messages(message):
         nonlocal highest_prob_list
         highest_prob_list[bot_response] = message_probability(message, list_of_words, single_response, required_words)
 
+    #prinkal
+    response('A drone, also known as an unmanned aerial vehicle (UAV), is a flying device that can operate without a human pilot on board. It can be remotely controlled or fly autonomously with the use of onboard computers, sensors, and GPS. Drones are used for various purposes including aerial photography and videography, delivery, reconnaissance, and search and rescue operations.', ['what', 'is'], required_words=['drone'])
+    
     # General Responses -------------------------------------------------------------------------------------------------------
     response('Hello!', ['hello', 'hi', 'hey', 'sup', 'heyo',"hai"], single_response=True)
     response('See you!', ['bye', 'goodbye'], single_response=True)
