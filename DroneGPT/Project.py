@@ -8,15 +8,15 @@ root.title("Drone GPT")
 root.state("zoomed")
 
 # bgimg = Image.open("DroneGPT/Photos/bg.jpg")
-bgimg = Image.open("DroneGPT/Photos/white.png")
+bgimg = Image.open("Photos/white.png")
 resize_image = bgimg.resize((1920,1024))
 bgimg = ImageTk.PhotoImage(resize_image)
 
-logoimg = Image.open("DroneGPT/Photos/logo.jfif")
+logoimg = Image.open("Photos/logo.jfif")
 resize_image = logoimg.resize((20,20))
 logoimg = ImageTk.PhotoImage(resize_image)
 
-droneGPTimg = Image.open("DroneGPT/Photos/DroneGPT.png")
+droneGPTimg = Image.open("Photos/DroneGPT.png")
 resize_image = droneGPTimg.resize((420,84))
 droneGPTimg = ImageTk.PhotoImage(resize_image)
 
@@ -30,7 +30,6 @@ def logo():
 
 def textgpt():
     text=query.get()
-    ans.insert(INSERT, "Q- '\033[1m' ")
     ans.insert(INSERT, text)
     ans.insert(INSERT, "\n")
     res=get_response(text)
@@ -59,15 +58,15 @@ background.pack()
 droneGPT = Label(master= chatWindow, image = droneGPTimg)
 droneGPT.place(x=800,y=20)
 
-logoimg = ImageTk.PhotoImage(Image.open('DroneGPT/Photos/logo.jfif').resize((100,100)))
+logoimg = ImageTk.PhotoImage(Image.open('Photos/logo.jfif').resize((100,100)))
 logobtn = Button(chatWindow, image=logoimg, bg="#323232", activebackground="#323232", relief=RAISED, bd=3,command=logo)
 logobtn.place(x=680,y=10)
 
-search= Image.open("DroneGPT/Photos/search.png")
+search= Image.open("Photos/search.png")
 resize_image = search.resize((55,55))
 search = ImageTk.PhotoImage(resize_image)
 
-mic= Image.open("DroneGPT/Photos/mic.png")
+mic= Image.open("Photos/mic.png")
 resize_image = mic.resize((55,55))
 mic = ImageTk.PhotoImage(resize_image)
 
